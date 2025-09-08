@@ -1,0 +1,286 @@
+{
+"Id": 1918884,
+"ActionButtonId": "07c93dd8-ef4a-3bba-aca1-ac6bcb401953",
+"Name": "002AddDPExceptionLevel",
+"Description": null,
+"Tooltip": "Add Exception Input level",
+"ActionButtonType": "Rule",
+"Alignment": "right",
+"IsPopOver": true,
+"IsGlobal": false,
+"ActionClickHandler": null,
+"Icon": null,
+"Image": null,
+"ConfigJson": {
+"DisplayName": "Input Level",
+"icon": "plus-square-o",
+"Position": "0",
+"SubmitButton": {
+"Label": "Submit"
+},
+"ResetButton": {
+"Label": "Reset"
+},
+"CloseButton": {
+"Label": "Close",
+"ConfirmMessage": "Unsaved changes will be lost. Continue?"
+},
+"NotifyRoles": true,
+"NotifyAll": false,
+"IBPLRules": [
+{
+"template": "Select(\"CDP Exception \" +\"{{DataObject}}\" );",
+"output": {
+"name": "Level",
+"type": "memberpairs"
+}
+},
+{
+"template": "CreateMember([Data Object].[Data Object]={,\"{{Level}}\"},[Data Object].[Data Object$DisplayName]={\"{{DataObject}}\",}, [Data Object].[Data Object Type]={,\"{{DataObjectType}}\"});",
+"input": {
+"name": "Level"
+}
+},
+{
+"template": "Cartesian scope: ([Version].[Version Name]{{#filter Version}} * [Data Object].[Data Object].filter(#.DisplayName in {\"{{DataObject}}\"}));\n\n{{#if Itemlevel}}\nMeasure.[Data Object Item Level]=\"{{Itemlevel}}\";\n{{/if}}\n\n{{#if Accountlevel}}\nMeasure.[Data Object Account Level]=\"{{Accountlevel}}\";\n{{/if}}\n\n{{#if Channellevel}}\nMeasure.[Data Object Channel Level]=\"{{Channellevel}}\";\n{{/if}}\n\n{{#if Regionlevel}}\nMeasure.[Data Object Region Level]=\"{{Regionlevel}}\";\n{{/if}}\n\n{{#if Locationlevel}}\nMeasure.[Data Object Location Level]=\"{{Locationlevel}}\";\n{{/if}}\n\n{{#if PnLlevel}}\nMeasure.[Data Object PnL Level]=\"{{PnLlevel}}\";\n{{/if}}\n\n{{#if DemandDomainlevel}}\nMeasure.[Data Object Demand Domain Level]=\"{{DemandDomainlevel}}\";\n{{/if}}\n\n{{#if DemandDomainlevel}}\nMeasure.[Data Object Process Order]=\"{{ProcessOrder}}\";\n{{/if}}\n\nend scope;\n\n\n"
+}
+],
+"JavascriptRules": [
+{
+"modulename": "o9.DemandPlanning.ValidateRealignmentLevels",
+"functionname": "validation"
+},
+{
+"modulename": "o9.DemandPlanning.DPExceptionType",
+"functionname": "DefaultExceptionType"
+}
+],
+"FieldBindings": [
+{
+"fieldName": "Version",
+"title": "Version Name",
+"Description": "Version Name",
+"type": "picklist",
+"selectionType": "single",
+"clearSearch": true,
+"source": "filter",
+"DimensionName": "Version",
+"LevelAttributeName": "Version Name",
+"visible": false,
+"isEditable": false,
+"validation": {
+"maxLength": "0",
+"required": true
+}
+},
+{
+"fieldName": "DataObjectType",
+"title": "Data Object Type",
+"Description": "Data Object Type",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"source": "literal",
+"defaultValue": "Exception CDP",
+"visible": true,
+"isEditable": false,
+"validation": {
+"maxLength": "0",
+"required": true
+}
+},
+{
+"fieldName": "DataObject",
+"title": "Data Object",
+"type": "string",
+"clearSearch": true,
+"source": "literal",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+}
+},
+{
+"fieldName": "Itemlevel",
+"title": "Item Level",
+"Description": "Item Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment Item Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Product"
+},
+{
+"fieldName": "Accountlevel",
+"title": "Account Level",
+"Description": "Account Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment Account Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Customer "
+},
+{
+"fieldName": "Channellevel",
+"title": "Channel Level",
+"Description": "Channel Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment Channel Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Customer "
+},
+{
+"fieldName": "Regionlevel",
+"title": "Region Level",
+"Description": "Region Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment Region Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Customer "
+},
+{
+"fieldName": "Locationlevel",
+"title": "Location Level",
+"Description": "Location Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment Location Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Location"
+},
+{
+"fieldName": "PnLlevel",
+"title": "PnL Level",
+"Description": "PnL Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment PnL Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Other"
+},
+{
+"fieldName": "DemandDomainlevel",
+"title": "Demand Domain Level",
+"Description": "Demand Domain Level",
+"type": "string",
+"selectionType": "single",
+"clearSearch": true,
+"select": "NONE",
+"source": "picklist",
+"key": "Realignment Demand Domain Level",
+"visible": true,
+"isEditable": true,
+"validation": {
+"maxLength": "0",
+"required": true
+},
+"fieldGroup": "Other"
+},
+{
+"fieldName": "ProcessOrder",
+"title": "ProcessOrder",
+"type": "picklist",
+"selectionType": "single",
+"clearSearch": true,
+"select": "ALL",
+"source": "datasource",
+"key": "ProcessOrder_ds",
+"valueField": "ProcessOrderCount",
+"textField": "ProcessOrderCount",
+"overrideFieldBindingType": false,
+"visible": false,
+"isEditable": false,
+"cascadeFrom": "Version",
+"validation": {
+"maxLength": "0",
+"required": true
+}
+}
+],
+"Range": [],
+"DataSources": [
+{
+"Name": "ProcessOrder_ds",
+"IBPLRules": [
+{
+"template": "Select ([Version].[Version Name]{{#filter Version}} ) on row, \n({(coalesce(Measure.[Data Object Process Order],0) +1) as transient.ProcessOrderCount }) on column ;"
+}
+],
+"JavascriptRules": [],
+"IncludeDSFieldsOnly": false,
+"FieldBindings": []
+}
+],
+"AutoExecute": false,
+"isAsync": false,
+"hasMembersUpdates": false,
+"Compact": true,
+"TwoColumn": true,
+"IsGlobalForExcelAddIn": false,
+"ExcludeFromNavLink": false,
+"FilterFieldBindings": [],
+"enableTransaction": false
+},
+"Widget": null,
+"Roles": [],
+"ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+},
+
+Enhance the code to support the following functions:
+1. For same json file, I should be able to define multiple config yaml files to extract different data from it.
+2. For the above json data example. I will define three config files. One to extract action button with IBPLRules information,
+one with JavascriptRules, thrid one with the FieldBindings.
+3. For this example. We dont define parent_key. For the children without parent_key you should always flattern the records.
+For example when you process IBPLRules config file, you should inserted 3 rows for this same action button. because there are 3 IBPLRule templates
