@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 from tkinter import Tk, filedialog, messagebox
 from config_manager import ConfigManager
-from simple_json_processor import SimpleJsonProcessor
+from json_processor import SimpleJsonProcessor
 
 # Fix dialog blurriness on high DPI displays
 try:

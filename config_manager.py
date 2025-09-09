@@ -6,7 +6,7 @@ class ConfigManager:
     """Simple configuration manager using JSON format."""
 
     def __init__(self):
-        self.config_file = Path(__file__).parent / "tenant_config.json"
+        self.config_file = Path(__file__).parent / "tables_config.json"
         self.config = self._load_config()
 
     def _load_config(self) -> Dict[str, Any]:

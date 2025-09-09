@@ -1,0 +1,59 @@
+{
+  "json_files": {
+    "workspaces.json": {
+      "table": "workspaces",
+      "fields": ["Id", "Title", "Name"],
+      "children": {
+        "PageGroups": {
+          "table": "page_groups", 
+          "fields": ["Id", "Title", "Name"],
+          "parent_id": "WorkspaceId"
+        },
+        "Pages": {
+          "table": "pages",
+          "fields": ["Id", "Title", "Name"],
+          "parent_id": "PageGroupId",
+          "children": {
+            "Views": {
+              "table": "views",
+              "fields": ["Id", "WorkspaceId", "PageId", "Title", "Name"],
+              "parent_id": "PageId"
+            }
+          }
+        }
+      }
+    },
+    "action_buttons.json": [
+      {
+        "table": "action_buttons_ibpl_rules",
+        "fields": ["Id", "ActionButtonId", "Name", "Description", "Tooltip", "ActionButtonType", "IsGlobal"],
+        "children": {
+          "ConfigJson.IBPLRules": {
+            "table": "action_buttons_ibpl_rules",
+            "fields": ["template"],
+            "children": {
+              "output": {
+                "table": "action_buttons_ibpl_rules",
+                "fields": ["name", "type"]
+              },
+              "input": {
+                "table": "action_buttons_ibpl_rules",
+                "fields": ["name", "type"]
+              }
+            }
+          }
+        }
+      },
+      {
+        "table": "action_buttons_javascript_rules",
+        "fields": ["Id", "ActionButtonId", "Name", "Description", "Tooltip", "ActionButtonType", "IsGlobal"],
+        "children": {
+          "ConfigJson.JavascriptRules": {
+            "table": "action_buttons_javascript_rules",
+            "fields": ["modulename", "functionname"]
+          }
+        }
+      }
+    ]
+  }
+}
