@@ -1,0 +1,222 @@
+[
+  {
+    "Id": 58983,
+    "TenantId": 7496,
+    "DimensionId": 674163,
+    "AliasName": "EKG Time",
+    "AliasDescription": "EKG Time",
+    "AliasId": "44136717-454b-c3e2-26d9-088de627e4fb",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "c5dfb0f8-a9ea-4208-a148-5e7adb4dad96"
+  },
+  {
+    "Id": 58987,
+    "TenantId": 7496,
+    "DimensionId": 674222,
+    "AliasName": "Cumulative Percentage of Total Intersections",
+    "AliasDescription": "Cumulative Percentage of Total Intersections",
+    "AliasId": "0a6be596-87f9-483c-bf79-21b947b9b8e8",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58986,
+    "TenantId": 7496,
+    "DimensionId": 674221,
+    "AliasName": "Supply",
+    "AliasDescription": "Used to mark the incoming supply (ATP) for Order Promising",
+    "AliasId": "5f5b29ea-ac03-5323-1b1e-21e4d2c64aa3",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58985,
+    "TenantId": 7496,
+    "DimensionId": 674200,
+    "AliasName": "Allocation ID",
+    "AliasDescription": "Used for allocation confirmation for Order Promising",
+    "AliasId": "742f9d33-9c15-9fe7-41d1-233195db9409",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  },
+  {
+    "Id": 58993,
+    "TenantId": 7496,
+    "DimensionId": 674224,
+    "AliasName": "Parameter",
+    "AliasDescription": "Stats Parameter",
+    "AliasId": "0071c940-555c-1474-a165-334142fb3810",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 59002,
+    "TenantId": 7496,
+    "DimensionId": 674262,
+    "AliasName": "Routing",
+    "AliasDescription": "Routing",
+    "AliasId": "2bbb167a-7f22-4974-9ef5-43acc6d30a1b",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58988,
+    "TenantId": 7496,
+    "DimensionId": 674222,
+    "AliasName": "Number of Clusters",
+    "AliasDescription": "Number of Clusters",
+    "AliasId": "2fa49ea0-5983-4f0a-a8cc-456dd1e26a42",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58992,
+    "TenantId": 7496,
+    "DimensionId": 674224,
+    "AliasName": "Policy Parameter",
+    "AliasDescription": "Policy Parameter",
+    "AliasId": "ca282607-c3d9-43b8-8599-475de5034d3b",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58998,
+    "TenantId": 7496,
+    "DimensionId": 674239,
+    "AliasName": "BOM",
+    "AliasDescription": "BOM",
+    "AliasId": "e75a242d-20ca-47e9-9f02-57ad06e3956a",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58995,
+    "TenantId": 7496,
+    "DimensionId": 674225,
+    "AliasName": "From Location",
+    "AliasDescription": "From Location",
+    "AliasId": "78057ff0-d9cc-4921-b2fb-6c457c75dccf",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58990,
+    "TenantId": 7496,
+    "DimensionId": 674222,
+    "AliasName": "Percentile",
+    "AliasDescription": "Percentile",
+    "AliasId": "dd2107fe-1363-4979-8b98-7474737f7519",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 59003,
+    "TenantId": 7496,
+    "DimensionId": 674276,
+    "AliasName": "Feature",
+    "AliasDescription": "Feature",
+    "AliasId": "221e43f0-22ad-408c-9c7c-77bc98963701",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58984,
+    "TenantId": 7496,
+    "DimensionId": 674166,
+    "AliasName": "EKGActivity",
+    "AliasDescription": "EKGActivity",
+    "AliasId": "a0809b38-d585-6f08-67bd-898863ef0c64",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "c5dfb0f8-a9ea-4208-a148-5e7adb4dad96"
+  },
+  {
+    "Id": 58996,
+    "TenantId": 7496,
+    "DimensionId": 674239,
+    "AliasName": "ProcLane",
+    "AliasDescription": "ProcLane",
+    "AliasId": "de2ff0db-56a4-4c23-8132-9b112a8e12fa",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58991,
+    "TenantId": 7496,
+    "DimensionId": 674222,
+    "AliasName": "Segment",
+    "AliasDescription": "Segment",
+    "AliasId": "2503bfd5-56ba-4ff2-8238-a8a2fe52c2e5",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58999,
+    "TenantId": 7496,
+    "DimensionId": 674246,
+    "AliasName": "Allocation Layer",
+    "AliasDescription": "Layer of Allocation that'd be used to consume allocation",
+    "AliasId": "414b934c-2546-b629-aaff-ba2269d13f43",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 59004,
+    "TenantId": 7496,
+    "DimensionId": 674279,
+    "AliasName": "Order",
+    "AliasDescription": "Models of Orders, for Order Promising",
+    "AliasId": "53527858-12d5-0955-398b-baf0cc1af132",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58994,
+    "TenantId": 7496,
+    "DimensionId": 674224,
+    "AliasName": "Bin",
+    "AliasDescription": "Histogram Stats Bin",
+    "AliasId": "2101bae8-b133-5f3b-2e5d-bcdba130c009",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58997,
+    "TenantId": 7496,
+    "DimensionId": 674239,
+    "AliasName": "BODLane",
+    "AliasDescription": "BODLane",
+    "AliasId": "b1b306a0-28e2-4a37-bd68-ca40d2e88b47",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 59001,
+    "TenantId": 7496,
+    "DimensionId": 674262,
+    "AliasName": "TransMode",
+    "AliasDescription": "TransMode",
+    "AliasId": "554a87d0-8fa6-4041-9336-e2c0524af2fb",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 59000,
+    "TenantId": 7496,
+    "DimensionId": 674246,
+    "AliasName": "Order Type",
+    "AliasDescription": "Type of order in Order Promising",
+    "AliasId": "d6c5b426-70c2-23c4-70ea-ea1c106c2f6a",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 58989,
+    "TenantId": 7496,
+    "DimensionId": 674222,
+    "AliasName": "Location Group",
+    "AliasDescription": "Location Group",
+    "AliasId": "0a892548-7a3a-eb19-0a08-fadc7c121979",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  }
+]

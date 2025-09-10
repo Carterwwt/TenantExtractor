@@ -1,0 +1,168 @@
+[
+  {
+    "Id": 9894,
+    "XLFolderId": "9d4d9b1f-fc49-416c-8e07-f87da40cbe4f",
+    "TenantId": 7496,
+    "AclElementId": "13610602",
+    "CreatedUserId": 71258,
+    "ModifiedUserId": 71258,
+    "CreatedTime": "2025-07-03T03:53:17.483",
+    "ModifiedTime": "2025-07-03T03:53:17.483",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 9944,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "13799539",
+    "CreatedUserId": 18469,
+    "ModifiedUserId": 18469,
+    "CreatedTime": "2025-07-09T03:08:24.243",
+    "ModifiedTime": "2025-07-09T03:08:24.243",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 9982,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "14030548",
+    "CreatedUserId": 18469,
+    "ModifiedUserId": 18469,
+    "CreatedTime": "2025-07-18T10:50:58.743",
+    "ModifiedTime": "2025-07-18T10:50:58.743",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 10081,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "14453584",
+    "CreatedUserId": 18170,
+    "ModifiedUserId": 18170,
+    "CreatedTime": "2025-08-13T08:05:13.613",
+    "ModifiedTime": "2025-08-13T08:05:13.613",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 10082,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "14463477",
+    "CreatedUserId": 18170,
+    "ModifiedUserId": 18170,
+    "CreatedTime": "2025-08-13T10:50:06.447",
+    "ModifiedTime": "2025-08-13T10:50:06.447",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 10114,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "14689994",
+    "CreatedUserId": 18170,
+    "ModifiedUserId": 18170,
+    "CreatedTime": "2025-08-22T07:51:58.24",
+    "ModifiedTime": "2025-08-22T07:51:58.24",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 10115,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "14698466",
+    "CreatedUserId": 18170,
+    "ModifiedUserId": 18170,
+    "CreatedTime": "2025-08-22T10:06:54.383",
+    "ModifiedTime": "2025-08-22T10:06:54.383",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": null
+  },
+  {
+    "Id": 10118,
+    "XLFolderId": "462d65c8-1bed-4625-bf9a-6646801914e8",
+    "TenantId": 7496,
+    "AclElementId": "14715427",
+    "CreatedUserId": 18170,
+    "ModifiedUserId": 18170,
+    "CreatedTime": "2025-08-25T05:02:22.4",
+    "ModifiedTime": "2025-08-25T05:02:22.4",
+    "FolderName": "Private Workbooks",
+    "IsPublished": true,
+    "DisplayOrder": 0,
+    "XLWorkbooks": null,
+    "Roles": [
+      "admin"
+    ],
+    "IsPrivate": true,
+    "ConfigJson": {},
+    "TranslatedName": "Private Workbooks",
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  }
+]

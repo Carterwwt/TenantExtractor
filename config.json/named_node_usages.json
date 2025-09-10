@@ -1,0 +1,2060 @@
+[
+  {
+    "Id": 0,
+    "NamedNodeName": "BottomUpPlanActual",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Account",
+        "AttributeName": "Planning Account",
+        "Sequence": 1
+      },
+      {
+        "DimensionName": "Channel",
+        "AttributeName": "Planning Channel",
+        "Sequence": 2
+      },
+      {
+        "DimensionName": "Region",
+        "AttributeName": "Planning Region",
+        "Sequence": 3
+      },
+      {
+        "DimensionName": "PnL",
+        "AttributeName": "Planning PnL",
+        "Sequence": 4
+      },
+      {
+        "DimensionName": "Demand Domain",
+        "AttributeName": "Planning Demand Domain",
+        "Sequence": 5
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 6
+      }
+    ],
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "LocationPlanActual",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Account",
+        "AttributeName": "Planning Account",
+        "Sequence": 1
+      },
+      {
+        "DimensionName": "Channel",
+        "AttributeName": "Planning Channel",
+        "Sequence": 2
+      },
+      {
+        "DimensionName": "Region",
+        "AttributeName": "Planning Region",
+        "Sequence": 3
+      },
+      {
+        "DimensionName": "PnL",
+        "AttributeName": "Planning PnL",
+        "Sequence": 4
+      },
+      {
+        "DimensionName": "Demand Domain",
+        "AttributeName": "Planning Demand Domain",
+        "Sequence": 5
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 6
+      }
+    ],
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LP_Product_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_BU_PartialTime_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Partial Week",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_ROS_OS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Week",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_SZP_AS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_MP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_SP_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Planning Month",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TY_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_DP_Handshake_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Range_WSSI_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TY_LP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_PAGA_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LB_RangeL_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LB_SCSS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_ActualPAG_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Week",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_SP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L6",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_LP_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_LP_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Planning Month",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_ROS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_LP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_SZP_SRSA_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Size Range",
+        "AttributeName": "Size Range",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Size",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_CLA_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Attribute_Intermediate_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_Product_Setup_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L6",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_BU_Attribute_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_RP_Product_Attribute_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_Department_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_ClstAP_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_ClassSS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_OS_BUOS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_Product_Location_Setup_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LB_SC_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_SCA_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TY_MP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TY_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Week",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Range_L_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_SP_Product_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L6",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_WSSI_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_BU_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_AOP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L6",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 1
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TY_LP_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Planning Month",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_OS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Product_Location_Setup_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Product_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TD_Product_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Range_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_Size_Range_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Size Range",
+        "AttributeName": "Size Range",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Size",
+        "AttributeName": "Size",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_SZP_APSR_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Size",
+        "AttributeName": "Size",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Size Range",
+        "AttributeName": "Size Range",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_Product_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_AOP_Channel_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LB_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_SZP_SRC_SZSQ_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Size",
+        "AttributeName": "Size",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Size Range",
+        "AttributeName": "Size Range",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sequence",
+        "AttributeName": "Sequence",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TD_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_RP_Product_Cluster_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Segmentation_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_BU_Product_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Channel_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LP_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_SCSS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_AOP_Month_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Month",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_SKU_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_OS_ROS_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Strategy_Product_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TY_Attribute_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_SZP_SRA_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Size",
+        "AttributeName": "Size",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Size Range",
+        "AttributeName": "Size Range",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_Department_Location_Setup_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L4",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 1
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Strategy_Product_Cluster_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Common_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_BU_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Week",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_SKU_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Season_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_Product_Attribute_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_RP_Product_Cluster_Setup_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_SC_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_CLCA_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_TD_Time_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Planning Month",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_Common_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_MFP_OTB_DV_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Data Validation",
+        "AttributeName": "Data Validation",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Range_MFPAP_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Planning Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_FD_Actual_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Week",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Item",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sales Domain",
+        "AttributeName": "Sales Planning Channel",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_MFP_Reconciliation_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_Strategy_Product_Attribute_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location Country",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_SZP_Product_Cluster_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Product Attribute Group",
+        "AttributeName": "Product Attribute Group",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Cluster",
+        "AttributeName": "Cluster",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_LB_PHSQ_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "L3",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Selling Season",
+        "AttributeName": "Selling Season",
+        "Sequence": 0
+      },
+      {
+        "DimensionName": "Sequence",
+        "AttributeName": "Sequence",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "Retail_AP_BP_Location_NN",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Location",
+        "AttributeName": "Location",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "IRItemAttribute",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Item",
+        "AttributeName": "Item",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  },
+  {
+    "Id": 0,
+    "NamedNodeName": "IRTimeAttribute",
+    "DimensionAttributes": [
+      {
+        "DimensionName": "Time",
+        "AttributeName": "Day",
+        "Sequence": 0
+      }
+    ],
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb",
+    "NamedNodeId": 0,
+    "DimensionAttributeId": 0
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "Id": 1810506,
+    "TenantId": 7496,
+    "Name": "admin",
+    "RoleType": "UISecurityGroup",
+    "Description": "admin",
+    "RoleId": "a8b061ba-9932-4c51-a213-9463258de4b2",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810507,
+    "TenantId": 7496,
+    "Name": "dataadmin",
+    "RoleType": "DataSecurityGroup",
+    "Description": "Role for datasecurity",
+    "RoleId": "5ab02d5a-99d1-447e-bb05-985b2d342c09",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810508,
+    "TenantId": 7496,
+    "Name": "readonly",
+    "RoleType": "DataSecurityGroup",
+    "Description": "Super ReadOnly Admin for data",
+    "RoleId": "902da1bb-e231-4395-a79c-facb2b917781",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810509,
+    "TenantId": 7496,
+    "Name": "System Architect",
+    "RoleType": "UISecurityGroup",
+    "Description": "Model and UI designer full privilege.",
+    "RoleId": "16051ee3-8296-495a-8a2a-e10641a030e8",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810510,
+    "TenantId": 7496,
+    "Name": "UI Designer - Public",
+    "RoleType": "UISecurityGroup",
+    "Description": "UI designer full privilege to create Public & Private reports.",
+    "RoleId": "02ea00e4-55a9-4263-85c7-23a73ad18906",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810511,
+    "TenantId": 7496,
+    "Name": "UI Designer - Private",
+    "RoleType": "UISecurityGroup",
+    "Description": "UI designer full privilege to create Private reports.",
+    "RoleId": "6c10b20e-a313-4091-b9d5-b69b68041d87",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810512,
+    "TenantId": 7496,
+    "Name": "External Users",
+    "RoleType": "UISecurityGroup",
+    "Description": "Role for External users",
+    "RoleId": "e9bb07ad-f38e-43a2-80c9-a20e8d223e94",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810513,
+    "TenantId": 7496,
+    "Name": "Login Auditor",
+    "RoleType": "UISecurityGroup",
+    "Description": "Role for accessing user login report",
+    "RoleId": "72843adf-94a5-4ec9-8fe4-c53b6146cfcb",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810514,
+    "TenantId": 7496,
+    "Name": "SRM Manager",
+    "RoleType": "UISecurityGroup",
+    "Description": "Role for accessing SRM specific features",
+    "RoleId": "01364784-ccef-4974-9249-34303f9d1086",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810515,
+    "TenantId": 7496,
+    "Name": "TaskViewer",
+    "RoleType": "CollabSecurityGroup",
+    "Description": "Role for viewing all tasks",
+    "RoleId": "c2d3b1e6-e466-44df-91dd-70f59e293d6c",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810516,
+    "TenantId": 7496,
+    "Name": "DSR Modifier",
+    "RoleType": "UISecurityGroup",
+    "Description": "Role for editing DSR rules",
+    "RoleId": "ff680bec-a52d-4d07-9f02-2f560f122f3a",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810517,
+    "TenantId": 7496,
+    "Name": "Company Admin",
+    "RoleType": "UISecurityGroup",
+    "Description": "Role for accessing User Management features of a company",
+    "RoleId": "210e6e6d-35ed-4f6d-af66-64ecdbece459",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810518,
+    "TenantId": 7496,
+    "Name": "BDPAdmin",
+    "RoleType": "DataSecurityGroup",
+    "Description": "Admin Role for BDP Authorization",
+    "RoleId": "7b4d9c06-9d43-4734-a2c6-8a20ab1a989f",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810519,
+    "TenantId": 7496,
+    "Name": "BDPUser",
+    "RoleType": "DataSecurityGroup",
+    "Description": "User Role for BDP Authorization",
+    "RoleId": "96fee818-824a-4a2e-876e-91bedc92c0d1",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810520,
+    "TenantId": 7496,
+    "Name": "BDPReader",
+    "RoleType": "DataSecurityGroup",
+    "Description": "Reader Role for BDP Authorization",
+    "RoleId": "8e81281f-46fc-4b8c-9ebe-cedc06fd75f5",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810521,
+    "TenantId": 7496,
+    "Name": "Integration Viewer",
+    "RoleType": "DataSecurityGroup",
+    "Description": "Reader Role for Integration Authorization",
+    "RoleId": "520cb558-6a30-4aee-9504-1ba6273c841e",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810522,
+    "TenantId": 7496,
+    "Name": "Integration Operator",
+    "RoleType": "DataSecurityGroup",
+    "Description": "Operator Role for Integration Authorization",
+    "RoleId": "27b35ab7-adbd-416b-971c-a8eaf042b3a9",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810523,
+    "TenantId": 7496,
+    "Name": "public",
+    "RoleType": "UISecurityGroup",
+    "Description": "public",
+    "RoleId": "3c945ad6-186b-47d8-926b-d25c131139a9",
+    "ModuleId": null
+  },
+  {
+    "Id": 1810524,
+    "TenantId": 7496,
+    "Name": "TenantUIAdmin",
+    "RoleType": "UISecurityGroup",
+    "Description": "User Management Group",
+    "RoleId": "b9ef29d4-6c35-46d7-914b-d784adb24d22",
+    "ModuleId": null
+  },
+  {
+    "Id": 1815806,
+    "TenantId": 7496,
+    "Name": "UI Designer - Public Controlled",
+    "RoleType": "UISecurityGroup",
+    "Description": "UI Access for public reports and workspaces",
+    "RoleId": "6fa345b7-2d7b-4916-92f4-750f60ced09d",
+    "ModuleId": null
+  }
+]

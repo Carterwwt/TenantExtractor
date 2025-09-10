@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 55725,
+    "TenantId": 7496,
+    "LCID": 1033,
+    "Locale": null,
+    "EntityId": "47132d82-4c6f-781e-3972-3b48943f369a",
+    "EntityType": "Page",
+    "Config": {
+      "Title": "Weekly Shelf Life Exceptions"
+    },
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 55726,
+    "TenantId": 7496,
+    "LCID": 17,
+    "Locale": null,
+    "EntityId": "0a117bba-7f49-4f0b-a821-5f19ce42d18d",
+    "EntityType": "View",
+    "Config": {
+      "Title": "??????????"
+    },
+    "ModuleId": "ec3d04db-c5c2-4b47-9799-9ed962d3f306"
+  },
+  {
+    "Id": 55724,
+    "TenantId": 7496,
+    "LCID": 1033,
+    "Locale": null,
+    "EntityId": "bb634ef5-67fc-fe38-a8c3-808165221c01",
+    "EntityType": "ActionButton",
+    "Config": {
+      "Tooltip": "Update the CML Slice Level with Chosen Slice Attribute Combination.(By default CML Slice Level is Updated with Rank 1 Combination)"
+    },
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 55723,
+    "TenantId": 7496,
+    "LCID": 1033,
+    "Locale": null,
+    "EntityId": "663ed32d-0254-46ef-a1e8-8da4e56b4a1c",
+    "EntityType": "Workspace",
+    "Config": {
+      "ShortTitle": "Centralized Monitoring"
+    },
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "Id": 136283,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866548,
+    "LCID": 9,
+    "AttributeName": "Constraint Resource",
+    "Description": "Constraint Resource",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136284,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866550,
+    "LCID": 9,
+    "AttributeName": "Routing",
+    "Description": "Routing",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136285,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866558,
+    "LCID": 9,
+    "AttributeName": "BOMID",
+    "Description": "BOMID",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136286,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866573,
+    "LCID": 1033,
+    "AttributeName": "Domain",
+    "Description": "Domain",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136287,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866576,
+    "LCID": 1033,
+    "AttributeName": "Consumed Location",
+    "Description": "Consumed Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136288,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866577,
+    "LCID": 1033,
+    "AttributeName": "Consumed Item",
+    "Description": "Consumed Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136289,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866580,
+    "LCID": 9,
+    "AttributeName": "Constraint Profile",
+    "Description": "Constraint Profile",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136290,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866592,
+    "LCID": 1033,
+    "AttributeName": "Consumption Week",
+    "Description": "Consumption Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136291,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866641,
+    "LCID": 1033,
+    "AttributeName": "Demand Location",
+    "Description": "Demand Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136292,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866647,
+    "LCID": 1033,
+    "AttributeName": "Demand Type",
+    "Description": "Demand Type",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136293,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866649,
+    "LCID": 1033,
+    "AttributeName": "Demand ID",
+    "Description": "Demand ID",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136294,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866650,
+    "LCID": 1033,
+    "AttributeName": "Account",
+    "Description": "Account",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136295,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866652,
+    "LCID": 1033,
+    "AttributeName": "Demand Week",
+    "Description": "Demand Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136296,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866655,
+    "LCID": 1033,
+    "AttributeName": "Demand Item",
+    "Description": "Demand Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136297,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866788,
+    "LCID": 1033,
+    "AttributeName": "Source Location",
+    "Description": "Source Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136298,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866797,
+    "LCID": 1033,
+    "AttributeName": "Destination Location",
+    "Description": "Destination Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136299,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866803,
+    "LCID": 1033,
+    "AttributeName": "Material",
+    "Description": "Material",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136300,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4866815,
+    "LCID": 1033,
+    "AttributeName": "TransMode",
+    "Description": "TransMode",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136301,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867468,
+    "LCID": 1033,
+    "AttributeName": "Consumption Location",
+    "Description": "Consumption Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136302,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867499,
+    "LCID": 1033,
+    "AttributeName": "Item",
+    "Description": "Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136303,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867501,
+    "LCID": 1033,
+    "AttributeName": "TransMode",
+    "Description": "TransMode",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136304,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867506,
+    "LCID": 1033,
+    "AttributeName": "Production Location",
+    "Description": "Production Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136305,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867589,
+    "LCID": 1033,
+    "AttributeName": "Location",
+    "Description": "Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136306,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867608,
+    "LCID": 1033,
+    "AttributeName": "Consumed Week",
+    "Description": "Consumed Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136307,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867610,
+    "LCID": 1033,
+    "AttributeName": "Resource",
+    "Description": "Resource",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136308,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867612,
+    "LCID": 1033,
+    "AttributeName": "Produced Item",
+    "Description": "Produced Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136309,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867932,
+    "LCID": 1033,
+    "AttributeName": "Consumed Location",
+    "Description": "Consumed Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136310,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867937,
+    "LCID": 1033,
+    "AttributeName": "Constraint Week",
+    "Description": "Constraint Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136311,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867941,
+    "LCID": 1033,
+    "AttributeName": "Item",
+    "Description": "Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136312,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867944,
+    "LCID": 1033,
+    "AttributeName": "Demand Type",
+    "Description": "Demand Type",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136313,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867958,
+    "LCID": 1033,
+    "AttributeName": "Customer",
+    "Description": "Customer",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136314,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867962,
+    "LCID": 1033,
+    "AttributeName": "Demand Week",
+    "Description": "Demand Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136315,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867965,
+    "LCID": 1033,
+    "AttributeName": "DemandID",
+    "Description": "DemandID",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136316,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867979,
+    "LCID": 1033,
+    "AttributeName": "End Location",
+    "Description": "End Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136317,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4867984,
+    "LCID": 1033,
+    "AttributeName": "End Item",
+    "Description": "End Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136318,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868721,
+    "LCID": 1033,
+    "AttributeName": "Constraint Week",
+    "Description": "Constraint Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136319,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868725,
+    "LCID": 1033,
+    "AttributeName": "Consumed Location",
+    "Description": "Consumed Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136320,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868744,
+    "LCID": 1033,
+    "AttributeName": "Demand Type",
+    "Description": "Demand Type",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136321,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868746,
+    "LCID": 1033,
+    "AttributeName": "End Location",
+    "Description": "End Location",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136322,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868747,
+    "LCID": 1033,
+    "AttributeName": "Customer",
+    "Description": "Customer",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136323,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868753,
+    "LCID": 1033,
+    "AttributeName": "End Item",
+    "Description": "End Item",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136324,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868754,
+    "LCID": 1033,
+    "AttributeName": "Demand Week",
+    "Description": "Demand Week",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 136325,
+    "TenantId": 7496,
+    "MemberRelNodeId": 4868758,
+    "LCID": 1033,
+    "AttributeName": "DemandID",
+    "Description": "DemandID",
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  }
+]

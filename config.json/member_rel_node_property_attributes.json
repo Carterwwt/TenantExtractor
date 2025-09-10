@@ -1,0 +1,218 @@
+[
+  {
+    "Id": 85942,
+    "TenantId": 7496,
+    "NodePropertyId": 28496,
+    "DimensionAttributeId": 4723484,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85943,
+    "TenantId": 7496,
+    "NodePropertyId": 28496,
+    "DimensionAttributeId": 4723796,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85944,
+    "TenantId": 7496,
+    "NodePropertyId": 28496,
+    "DimensionAttributeId": 4723982,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85945,
+    "TenantId": 7496,
+    "NodePropertyId": 28497,
+    "DimensionAttributeId": 4723484,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85946,
+    "TenantId": 7496,
+    "NodePropertyId": 28497,
+    "DimensionAttributeId": 4723796,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85947,
+    "TenantId": 7496,
+    "NodePropertyId": 28497,
+    "DimensionAttributeId": 4723982,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85949,
+    "TenantId": 7496,
+    "NodePropertyId": 28498,
+    "DimensionAttributeId": 4723241,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85948,
+    "TenantId": 7496,
+    "NodePropertyId": 28498,
+    "DimensionAttributeId": 4723581,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85951,
+    "TenantId": 7496,
+    "NodePropertyId": 28499,
+    "DimensionAttributeId": 4723241,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85950,
+    "TenantId": 7496,
+    "NodePropertyId": 28499,
+    "DimensionAttributeId": 4723581,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85953,
+    "TenantId": 7496,
+    "NodePropertyId": 28500,
+    "DimensionAttributeId": 4723241,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85952,
+    "TenantId": 7496,
+    "NodePropertyId": 28500,
+    "DimensionAttributeId": 4723964,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85955,
+    "TenantId": 7496,
+    "NodePropertyId": 28501,
+    "DimensionAttributeId": 4723241,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85954,
+    "TenantId": 7496,
+    "NodePropertyId": 28501,
+    "DimensionAttributeId": 4723964,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85956,
+    "TenantId": 7496,
+    "NodePropertyId": 28502,
+    "DimensionAttributeId": 4723241,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85960,
+    "TenantId": 7496,
+    "NodePropertyId": 28502,
+    "DimensionAttributeId": 4723484,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85958,
+    "TenantId": 7496,
+    "NodePropertyId": 28502,
+    "DimensionAttributeId": 4723796,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85957,
+    "TenantId": 7496,
+    "NodePropertyId": 28502,
+    "DimensionAttributeId": 4723964,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85959,
+    "TenantId": 7496,
+    "NodePropertyId": 28502,
+    "DimensionAttributeId": 4723982,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85961,
+    "TenantId": 7496,
+    "NodePropertyId": 28503,
+    "DimensionAttributeId": 4723241,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85965,
+    "TenantId": 7496,
+    "NodePropertyId": 28503,
+    "DimensionAttributeId": 4723484,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85963,
+    "TenantId": 7496,
+    "NodePropertyId": 28503,
+    "DimensionAttributeId": 4723796,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85962,
+    "TenantId": 7496,
+    "NodePropertyId": 28503,
+    "DimensionAttributeId": 4723964,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "Id": 85964,
+    "TenantId": 7496,
+    "NodePropertyId": 28503,
+    "DimensionAttributeId": 4723982,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "AttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000"
+  }
+]

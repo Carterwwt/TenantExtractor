@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 10485,
+    "TenantId": 7496,
+    "DimensionId": 674161,
+    "LCID": 1033,
+    "DimensionName": "Task",
+    "DimensionDescription": "Task",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "c5dfb0f8-a9ea-4208-a148-5e7adb4dad96"
+  },
+  {
+    "Id": 10486,
+    "TenantId": 7496,
+    "DimensionId": 674167,
+    "LCID": 1033,
+    "DimensionName": "Batch Error",
+    "DimensionDescription": "Batch Error",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "c5dfb0f8-a9ea-4208-a148-5e7adb4dad96"
+  },
+  {
+    "Id": 10487,
+    "TenantId": 7496,
+    "DimensionId": 674170,
+    "LCID": 1033,
+    "DimensionName": "Batch",
+    "DimensionDescription": "Batch",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "c5dfb0f8-a9ea-4208-a148-5e7adb4dad96"
+  },
+  {
+    "Id": 10488,
+    "TenantId": 7496,
+    "DimensionId": 674175,
+    "LCID": 1033,
+    "DimensionName": "Industry",
+    "DimensionDescription": "Industry",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 10489,
+    "TenantId": 7496,
+    "DimensionId": 674176,
+    "LCID": 1033,
+    "DimensionName": "Table",
+    "DimensionDescription": "Table",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 10490,
+    "TenantId": 7496,
+    "DimensionId": 674177,
+    "LCID": 1033,
+    "DimensionName": "Building Blocks",
+    "DimensionDescription": "Building Blocks",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 10491,
+    "TenantId": 7496,
+    "DimensionId": 674178,
+    "LCID": 1033,
+    "DimensionName": "User",
+    "DimensionDescription": "User",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 10492,
+    "TenantId": 7496,
+    "DimensionId": 674180,
+    "LCID": 1033,
+    "DimensionName": "Capabilities",
+    "DimensionDescription": "Capabilities",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 10493,
+    "TenantId": 7496,
+    "DimensionId": 674181,
+    "LCID": 1033,
+    "DimensionName": "Customer",
+    "DimensionDescription": "Customer",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 10494,
+    "TenantId": 7496,
+    "DimensionId": 674184,
+    "LCID": 1033,
+    "DimensionName": "Documents",
+    "DimensionDescription": "Documents",
+    "Language": null,
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  }
+]

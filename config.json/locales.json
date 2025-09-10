@@ -1,0 +1,198 @@
+[
+  {
+    "LCID": 7,
+    "Language": "German"
+  },
+  {
+    "LCID": 9,
+    "Language": "English"
+  },
+  {
+    "LCID": 12,
+    "Language": "French"
+  },
+  {
+    "LCID": 17,
+    "Language": "Japanese"
+  },
+  {
+    "LCID": 18,
+    "Language": "Korean"
+  },
+  {
+    "LCID": 22,
+    "Language": "Portuguese (Mozambique)"
+  },
+  {
+    "LCID": 25,
+    "Language": "Russian"
+  },
+  {
+    "LCID": 57,
+    "Language": "Hindi"
+  },
+  {
+    "LCID": 127,
+    "Language": "Invariant Language (Invariant Country)"
+  },
+  {
+    "LCID": 1025,
+    "Language": "Arabic - Saudi Arabia"
+  },
+  {
+    "LCID": 1026,
+    "Language": "Bulgarian (Bulgaria)"
+  },
+  {
+    "LCID": 1028,
+    "Language": "Chinese - Taiwan"
+  },
+  {
+    "LCID": 1031,
+    "Language": "German (Germany)"
+  },
+  {
+    "LCID": 1033,
+    "Language": "English - United States"
+  },
+  {
+    "LCID": 1036,
+    "Language": "French - France"
+  },
+  {
+    "LCID": 1039,
+    "Language": "Icelandic (Iceland)"
+  },
+  {
+    "LCID": 1040,
+    "Language": "Italian"
+  },
+  {
+    "LCID": 1041,
+    "Language": "Japanese (Japan)"
+  },
+  {
+    "LCID": 1042,
+    "Language": "ko-KR"
+  },
+  {
+    "LCID": 1046,
+    "Language": "Portuguese (Brazil)"
+  },
+  {
+    "LCID": 1050,
+    "Language": "Croatian (Croatia)"
+  },
+  {
+    "LCID": 1053,
+    "Language": "Swedish - Sweden"
+  },
+  {
+    "LCID": 1055,
+    "Language": "Turkish (Turkey)"
+  },
+  {
+    "LCID": 1066,
+    "Language": "Vietnamese"
+  },
+  {
+    "LCID": 1081,
+    "Language": "Hindi"
+  },
+  {
+    "LCID": 1086,
+    "Language": "Malay - Malaysia"
+  },
+  {
+    "LCID": 2052,
+    "Language": "Chinese (Simplified)"
+  },
+  {
+    "LCID": 2055,
+    "Language": "German (Switzerland)"
+  },
+  {
+    "LCID": 2057,
+    "Language": "English - United Kingdom"
+  },
+  {
+    "LCID": 2058,
+    "Language": "Spanish (Mexico)"
+  },
+  {
+    "LCID": 2068,
+    "Language": "Norwegian - Nynorsk"
+  },
+  {
+    "LCID": 2110,
+    "Language": "Malay - Brunei"
+  },
+  {
+    "LCID": 3076,
+    "Language": "Chinese - Hong Kong SAR"
+  },
+  {
+    "LCID": 3082,
+    "Language": "Spanish (Spain)"
+  },
+  {
+    "LCID": 3084,
+    "Language": "French (Canada)"
+  },
+  {
+    "LCID": 4105,
+    "Language": "English (Canada)"
+  },
+  {
+    "LCID": 4122,
+    "Language": "Croatian (Bosnia & Herzegovina)"
+  },
+  {
+    "LCID": 6145,
+    "Language": "Arabic - Morocco"
+  },
+  {
+    "LCID": 7177,
+    "Language": "English - South Africa"
+  },
+  {
+    "LCID": 8201,
+    "Language": "English - Jamaica"
+  },
+  {
+    "LCID": 9226,
+    "Language": "Spanish - Colombia"
+  },
+  {
+    "LCID": 9242,
+    "Language": "Serbian"
+  },
+  {
+    "LCID": 11274,
+    "Language": "Spanish - Argentina"
+  },
+  {
+    "LCID": 13322,
+    "Language": "Spanish - Chile"
+  },
+  {
+    "LCID": 14337,
+    "Language": "Arabic (UAE)"
+  },
+  {
+    "LCID": 16385,
+    "Language": "Arabic - Qatar"
+  },
+  {
+    "LCID": 16393,
+    "Language": "English - India"
+  },
+  {
+    "LCID": 20581,
+    "Language": "Spanish-(Mexico)"
+  },
+  {
+    "LCID": 21514,
+    "Language": "Spanish (United States)"
+  }
+]

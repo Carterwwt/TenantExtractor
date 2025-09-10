@@ -1,0 +1,77 @@
+[
+  {
+    "Id": 24520,
+    "Name": "Demands Replanning",
+    "TenantId": 7496,
+    "PageId": 1698950,
+    "WidgetDefinitionId": 5526141,
+    "ConfigJson": {
+      "Position": 0
+    },
+    "PageWidgetDefinitionId": "a381b396-1a35-4661-9470-030155ecfe22",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "Title": null
+  },
+  {
+    "Id": 24521,
+    "Name": "Demands Replanning",
+    "TenantId": 7496,
+    "PageId": 1698960,
+    "WidgetDefinitionId": 5523789,
+    "ConfigJson": {
+      "Position": 0,
+      "FilterScopes": [
+        {
+          "Scope": "Workspace",
+          "LevelAttribute": {
+            "AttributeName": "Version Name",
+            "Dimension": "Version"
+          },
+          "FilterId": "427c302e3e3c501445df9c53278ae925"
+        }
+      ]
+    },
+    "PageWidgetDefinitionId": "0c476d00-2597-41ac-8e38-951e8da9fb89",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "Title": null
+  },
+  {
+    "Id": 24522,
+    "Name": "Demands Replanning",
+    "TenantId": 7496,
+    "PageId": 1699202,
+    "WidgetDefinitionId": 5526141,
+    "ConfigJson": {
+      "Position": 0
+    },
+    "PageWidgetDefinitionId": "ea6e531a-fe8c-4c7b-bfef-5bc7cc4c87f8",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e",
+    "Title": null
+  },
+  {
+    "Id": 24523,
+    "Name": "Current Period",
+    "TenantId": 7496,
+    "PageId": 1699792,
+    "WidgetDefinitionId": 5524327,
+    "ConfigJson": {
+      "Position": 0
+    },
+    "PageWidgetDefinitionId": "c20c8ac6-7be6-65d5-d034-590c80937b56",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "Title": null
+  },
+  {
+    "Id": 24524,
+    "Name": "Last Period",
+    "TenantId": 7496,
+    "PageId": 1699792,
+    "WidgetDefinitionId": 5524027,
+    "ConfigJson": {
+      "Position": 0
+    },
+    "PageWidgetDefinitionId": "3b20f760-ae1e-73aa-218c-40806f9665d9",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75",
+    "Title": null
+  }
+]

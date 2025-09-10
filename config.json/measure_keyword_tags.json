@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 9464,
+    "TenantId": 7496,
+    "KeywordTagName": "{\r\n  \"Tags\": [\r\n    {\r\n      \"Key\": \"Goods Qty\",\r\n      \"Name\": \"Goods Qty\",\r\n      \"Display\": \"Goods Qty\"\r\n    },\r\n    {\r\n      \"Key\": \"Quantity\",\r\n      \"Name\": \"Quantity\",\r\n      \"Display\": \"Quantity\"\r\n    },\r\n    {\r\n      \"Key\": \"Goods Quantity\",\r\n      \"Name\": \"Goods Quantity\",\r\n      \"Display\": \"Goods Quantity\"\r\n    }\r\n  ]\r\n}",
+    "Language": null,
+    "MeasureId": 29056083,
+    "LCID": 1033,
+    "ModuleId": "ddab5036-c377-42df-a830-e56e77624e89"
+  }
+]

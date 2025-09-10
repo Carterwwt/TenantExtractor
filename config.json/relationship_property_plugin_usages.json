@@ -1,0 +1,164 @@
+[
+  {
+    "Id": 72855,
+    "TenantId": 7496,
+    "InstanceId": 572595,
+    "MemberRelationshipPropertyId": 1883787,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72856,
+    "TenantId": 7496,
+    "InstanceId": 572595,
+    "MemberRelationshipPropertyId": 1883793,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72857,
+    "TenantId": 7496,
+    "InstanceId": 572595,
+    "MemberRelationshipPropertyId": 1883858,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72858,
+    "TenantId": 7496,
+    "InstanceId": 572595,
+    "MemberRelationshipPropertyId": 1883860,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72853,
+    "TenantId": 7496,
+    "InstanceId": 572595,
+    "MemberRelationshipPropertyId": 1884046,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72854,
+    "TenantId": 7496,
+    "InstanceId": 572595,
+    "MemberRelationshipPropertyId": 1884047,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72834,
+    "TenantId": 7496,
+    "InstanceId": 572694,
+    "MemberRelationshipPropertyId": 1883749,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72833,
+    "TenantId": 7496,
+    "InstanceId": 572694,
+    "MemberRelationshipPropertyId": 1883750,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72832,
+    "TenantId": 7496,
+    "InstanceId": 572694,
+    "MemberRelationshipPropertyId": 1884061,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72831,
+    "TenantId": 7496,
+    "InstanceId": 572694,
+    "MemberRelationshipPropertyId": 1884064,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72829,
+    "TenantId": 7496,
+    "InstanceId": 572694,
+    "MemberRelationshipPropertyId": 1884111,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72830,
+    "TenantId": 7496,
+    "InstanceId": 572694,
+    "MemberRelationshipPropertyId": 1884112,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72842,
+    "TenantId": 7496,
+    "InstanceId": 572897,
+    "MemberRelationshipPropertyId": 1883322,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72841,
+    "TenantId": 7496,
+    "InstanceId": 572897,
+    "MemberRelationshipPropertyId": 1883323,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72843,
+    "TenantId": 7496,
+    "InstanceId": 572897,
+    "MemberRelationshipPropertyId": 1883587,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72844,
+    "TenantId": 7496,
+    "InstanceId": 572897,
+    "MemberRelationshipPropertyId": 1883588,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72845,
+    "TenantId": 7496,
+    "InstanceId": 572897,
+    "MemberRelationshipPropertyId": 1883767,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 72846,
+    "TenantId": 7496,
+    "InstanceId": 572897,
+    "MemberRelationshipPropertyId": 1883769,
+    "IsInput": false,
+    "IsOutput": false,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  }
+]

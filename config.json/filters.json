@@ -1,0 +1,21 @@
+[
+  {
+    "Id": 120161,
+    "TenantId": 7496,
+    "Name": "Tenant-Filter",
+    "Title": "Tenant",
+    "Image": null,
+    "FilterType": "DbSet",
+    "DimensionId": "00000000-0000-0000-0000-000000000000",
+    "DimensionName": "Tenants",
+    "AttributeId": "00000000-0000-0000-0000-000000000000",
+    "LevelAttributeName": "Name",
+    "DefaultValue": "optimal",
+    "SelectedValue": null,
+    "ConfigJson": {
+      "ImageAttributeName": "Product Segment Image"
+    },
+    "LevelProperties": null,
+    "ModuleId": null
+  }
+]

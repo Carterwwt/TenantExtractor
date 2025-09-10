@@ -137,6 +137,9 @@ def main():
                     processor.process_data(config, data)
                     print(f"Completed processing: {json_filename}")
 
+                # To transform module id to module name for all tables
+                processor.transform_module_id()
+
                 # Commit changes
                 conn.commit()
                 print(f"All data successfully imported to database: {db_path}")

@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 330,
+    "TenantId": 7496,
+    "ScopeId": 4035987,
+    "SetId": "b983478c-7ca0-849d-07a9-2b966dac5b7c",
+    "Name": "2e1b77c1-3418-4a21-8e37-3208971a795f",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "97428148-218e-4b85-81d1-68ef84f70b05"
+  },
+  {
+    "Id": 331,
+    "TenantId": 7496,
+    "ScopeId": 4035988,
+    "SetId": "0240c819-0723-5b7a-59ca-c84d08c61781",
+    "Name": "9803d8cf-2967-4f3f-b33b-9da57a0c4b75",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 332,
+    "TenantId": 7496,
+    "ScopeId": 4035989,
+    "SetId": "08410cf7-a5f3-24b3-e204-63663b12b88b",
+    "Name": "a4002f45-272b-488e-be85-9765eb9fc5fd",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 333,
+    "TenantId": 7496,
+    "ScopeId": 4035990,
+    "SetId": "7cfb3996-ebdf-3b8f-896c-7d62ab0c7290",
+    "Name": "aaa2a716-4ff8-4cd8-adcd-7f7227019081",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 334,
+    "TenantId": 7496,
+    "ScopeId": 4035991,
+    "SetId": "765495c1-1c95-84a4-5030-a5ed28d87894",
+    "Name": "5c1d5993-ae59-4ac7-9d80-cbcc60632d07",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 335,
+    "TenantId": 7496,
+    "ScopeId": 4035992,
+    "SetId": "515fab27-c751-c1c9-26f3-14a2d44f6b4f",
+    "Name": "4022fb9f-1c47-4672-99b8-db9ecf186f3d",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 336,
+    "TenantId": 7496,
+    "ScopeId": 4035993,
+    "SetId": "f2eb69ad-bcc6-c460-18a8-6b29c48a1a95",
+    "Name": "1f13384b-f07f-4e9b-bfec-d3fa016b9092",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "872cd171-8caa-4e3a-bd94-265838c2d91a"
+  },
+  {
+    "Id": 337,
+    "TenantId": 7496,
+    "ScopeId": 4035994,
+    "SetId": "7cc97f9d-5c5b-963e-64f8-b80b3f82d0e2",
+    "Name": "ccd57591-7012-40dd-b232-e02747d16712",
+    "Description": "",
+    "IsEnabled": true,
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Id": 9705,
+    "TenantId": 7496,
+    "AttributeAliasId": 311287,
+    "LCID": 1033,
+    "TranslationName": "PO Line ID",
+    "TranslationDescription": "PO Line ID",
+    "DimensionAttributeAliasName": null,
+    "Language": null,
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 9706,
+    "TenantId": 7496,
+    "AttributeAliasId": 311289,
+    "LCID": 1033,
+    "TranslationName": "PO Header ID",
+    "TranslationDescription": "PO Header ID",
+    "DimensionAttributeAliasName": null,
+    "Language": null,
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  },
+  {
+    "Id": 9707,
+    "TenantId": 7496,
+    "AttributeAliasId": 311296,
+    "LCID": 1033,
+    "TranslationName": "Location Group",
+    "TranslationDescription": "Location Group",
+    "DimensionAttributeAliasName": null,
+    "Language": null,
+    "ModuleId": "40787334-d114-4118-82e3-eec1fce692eb"
+  }
+]

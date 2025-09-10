@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 28496,
+    "TenantId": 7496,
+    "PropertyName": "Shape",
+    "PropertyDescription": "Shape of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"01 dot\"",
+    "PropertyId": "3d389255-e04e-4d98-bcd7-357210a65146",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28497,
+    "TenantId": 7496,
+    "PropertyName": "ImageAttribute",
+    "PropertyDescription": "Image Attribute of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"Activity1\"",
+    "PropertyId": "23e55069-a49a-4082-8f31-37a0f714650c",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28498,
+    "TenantId": 7496,
+    "PropertyName": "BackgroundColor",
+    "PropertyDescription": "Background Color",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "IF(Measure.[D Material RCA Quantity]>0) then \"argb( 1,255, 0, 0)\"",
+    "PropertyId": "58505006-897f-4937-a408-fc706ce6dcd4",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28499,
+    "TenantId": 7496,
+    "PropertyName": "Shape",
+    "PropertyDescription": "Shape of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"02 triangle\"",
+    "PropertyId": "84034eeb-218c-41d3-b2c3-75a0f327355e",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28500,
+    "TenantId": 7496,
+    "PropertyName": "ImageAttribute",
+    "PropertyDescription": "Image Attribute of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"Resource\"",
+    "PropertyId": "3a27fda7-011b-47b8-8c40-47bb57e2ce26",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28501,
+    "TenantId": 7496,
+    "PropertyName": "Shape",
+    "PropertyDescription": "Shape of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"06 triangleDown\"",
+    "PropertyId": "0d5ab2c0-3cae-4265-a017-872cacd96368",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28502,
+    "TenantId": 7496,
+    "PropertyName": "Shape",
+    "PropertyDescription": "Shape of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"01 dot\"",
+    "PropertyId": "3447815c-6af2-413d-bb7e-1e57a0a401c1",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 28503,
+    "TenantId": 7496,
+    "PropertyName": "ImageAttribute",
+    "PropertyDescription": "Image Attribute of the node",
+    "PropertyDataType": "string",
+    "PropertyDataSize": 0,
+    "PropertyFormula": "\"Activity1\"",
+    "PropertyId": "c793b49e-3909-47a3-ac20-04f7b00446a9",
+    "FormattingViewModel": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  }
+]

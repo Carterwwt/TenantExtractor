@@ -1,0 +1,1212 @@
+[
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119706,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119706,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119706,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119706,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119706,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119920,
+    "DimensionAttributeId": 4723338,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119920,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6119920,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120192,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120192,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120192,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120192,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120192,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120314,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120314,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120314,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120314,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120314,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120409,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120409,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120409,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120409,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120409,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120559,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120559,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120559,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120559,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6120559,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723354,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121189,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121189,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121189,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723205,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121141,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121189,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121189,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121579,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121579,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121579,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121579,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121579,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121611,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121611,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121611,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121611,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121611,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121645,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121645,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121645,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121645,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6121645,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122199,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122199,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122199,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122199,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122199,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122206,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122206,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122206,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122206,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122206,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122242,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122242,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122242,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122242,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122242,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122329,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122329,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122329,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122337,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122337,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122337,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122329,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122329,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122343,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122337,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122337,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122343,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122343,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122348,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122348,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122343,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122343,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122348,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122348,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122348,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122356,
+    "DimensionAttributeId": 4723338,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122356,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122356,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122372,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122372,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122379,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122379,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122372,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122372,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122379,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122372,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122379,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122379,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122407,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122407,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122407,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122407,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122407,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122414,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122414,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122414,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122414,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122414,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122521,
+    "DimensionAttributeId": 4723964,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122521,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122521,
+    "DimensionAttributeId": 4723982,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122521,
+    "DimensionAttributeId": 4723484,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122521,
+    "DimensionAttributeId": 4723796,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122587,
+    "DimensionAttributeId": 4723338,
+    "IsTailNode": false,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122587,
+    "DimensionAttributeId": 4723581,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "TenantId": 7496,
+    "MeasureGroupId": 6122587,
+    "DimensionAttributeId": 4723241,
+    "IsTailNode": true,
+    "MeasureGroupGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionAttributeGuid": "00000000-0000-0000-0000-000000000000",
+    "DimensionGuid": "00000000-0000-0000-0000-000000000000",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  }
+]

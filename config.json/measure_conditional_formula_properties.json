@@ -1,0 +1,462 @@
+[
+  {
+    "Id": 174505,
+    "TenantId": 7496,
+    "MeasureId": 29055308,
+    "ConditionalFormula": "Measure.[AP End Week RR]<Measure.[AP Start Week RR]",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "97428148-218e-4b85-81d1-68ef84f70b05"
+  },
+  {
+    "Id": 174506,
+    "TenantId": 7496,
+    "MeasureId": 29055308,
+    "ConditionalFormula": "Isnull(Measure.[AP Start Week RR])",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "97428148-218e-4b85-81d1-68ef84f70b05"
+  },
+  {
+    "Id": 174507,
+    "TenantId": 7496,
+    "MeasureId": 29055344,
+    "ConditionalFormula": "Measure.[AP End Week RR]<Measure.[Start Week SC L]",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "97428148-218e-4b85-81d1-68ef84f70b05"
+  },
+  {
+    "Id": 174508,
+    "TenantId": 7496,
+    "MeasureId": 29056152,
+    "ConditionalFormula": "Isnull(Measure.[CP L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 174509,
+    "TenantId": 7496,
+    "MeasureId": 29056201,
+    "ConditionalFormula": "Isnull(Measure.[ASP L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 174510,
+    "TenantId": 7496,
+    "MeasureId": 29056216,
+    "ConditionalFormula": "Isnull(Measure.[WOS L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 174511,
+    "TenantId": 7496,
+    "MeasureId": 29056228,
+    "ConditionalFormula": "Isnull(Measure.[Sell Through % L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 174512,
+    "TenantId": 7496,
+    "MeasureId": 29056331,
+    "ConditionalFormula": "Isnull(Measure.[APStartWeek])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174513,
+    "TenantId": 7496,
+    "MeasureId": 29056331,
+    "ConditionalFormula": "Measure.[End Week SC LC]<Measure.[APStartWeek]",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174514,
+    "TenantId": 7496,
+    "MeasureId": 29056603,
+    "ConditionalFormula": "Measure.[AP EOP Units]<coalesce(Measure.[Fixture Fill/store],0)",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 174515,
+    "TenantId": 7496,
+    "MeasureId": 29056603,
+    "ConditionalFormula": "Measure.[AP EOP Units]>coalesce(Measure.[Fixture Fill/store],0)",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 174516,
+    "TenantId": 7496,
+    "MeasureId": 29056857,
+    "ConditionalFormula": "Measure.[Store TD Gross Margin %]>Measure.[Store TD Gross Margin LY %]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "872cd171-8caa-4e3a-bd94-265838c2d91a"
+  },
+  {
+    "Id": 174517,
+    "TenantId": 7496,
+    "MeasureId": 29056857,
+    "ConditionalFormula": "Measure.[Store TD Gross Margin %]<Measure.[Store TD Gross Margin LY %]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "872cd171-8caa-4e3a-bd94-265838c2d91a"
+  },
+  {
+    "Id": 174518,
+    "TenantId": 7496,
+    "MeasureId": 29057043,
+    "ConditionalFormula": "isnull(measure.[APExitWeek])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174519,
+    "TenantId": 7496,
+    "MeasureId": 29057043,
+    "ConditionalFormula": "Measure.[APExitWeek]<Measure.[APStartWeek]",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174520,
+    "TenantId": 7496,
+    "MeasureId": 29057811,
+    "ConditionalFormula": "Measure.[BU Rec Rtl AP]<Measure.[Act Rec Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174521,
+    "TenantId": 7496,
+    "MeasureId": 29057811,
+    "ConditionalFormula": "Measure.[BU Rec Rtl AP]>Measure.[Act Rec Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174522,
+    "TenantId": 7496,
+    "MeasureId": 29057990,
+    "ConditionalFormula": "Measure.[BU Ttl Sls Rtl AP]<Measure.[Act Ttl Sls Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174523,
+    "TenantId": 7496,
+    "MeasureId": 29057990,
+    "ConditionalFormula": "Measure.[BU Ttl Sls Rtl AP]>measure.[Act Ttl Sls Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174524,
+    "TenantId": 7496,
+    "MeasureId": 29058175,
+    "ConditionalFormula": "Measure.[CP Receipts YoY%]==0",
+    "BGCOLOR": "argb(1,255,255,255)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174525,
+    "TenantId": 7496,
+    "MeasureId": 29058175,
+    "ConditionalFormula": "Measure.[CP Receipts YoY%]<0",
+    "BGCOLOR": "argb(1,255,255,255)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174526,
+    "TenantId": 7496,
+    "MeasureId": 29058175,
+    "ConditionalFormula": "Measure.[CP Receipts YoY%]>0",
+    "BGCOLOR": "argb(1,255,255,255)",
+    "LegendText": "",
+    "DisplayOrder": 2,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174527,
+    "TenantId": 7496,
+    "MeasureId": 29058314,
+    "ConditionalFormula": "Measure.[CP Sales YoY%]<0",
+    "BGCOLOR": "argb(1,255,255,255)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174528,
+    "TenantId": 7496,
+    "MeasureId": 29058314,
+    "ConditionalFormula": "Measure.[CP Sales YoY%]==0",
+    "BGCOLOR": "argb(1,255,255,255)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174529,
+    "TenantId": 7496,
+    "MeasureId": 29058314,
+    "ConditionalFormula": "Measure.[CP Sales YoY%]>0",
+    "BGCOLOR": "argb(1,255,255,255)",
+    "LegendText": "",
+    "DisplayOrder": 2,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174530,
+    "TenantId": 7496,
+    "MeasureId": 29058417,
+    "ConditionalFormula": "(Measure.[BU % Gap-Sales(TY VS Planned)])<0.05||(Measure.[BU % Gap-Sales(TY VS Planned)])==0.05&&(Measure.[BU % Gap-Sales(TY VS Planned)])>0",
+    "BGCOLOR": "argb(1,255,255,0)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174531,
+    "TenantId": 7496,
+    "MeasureId": 29058417,
+    "ConditionalFormula": "(Measure.[BU % Gap-Sales(TY VS Planned)])>0.05&&(Measure.[BU % Gap-Sales(TY VS Planned)]<0.10)",
+    "BGCOLOR": "argb(1,255,165,0)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174532,
+    "TenantId": 7496,
+    "MeasureId": 29058417,
+    "ConditionalFormula": "(Measure.[BU % Gap-Sales(TY VS Planned)])>=0.10",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 2,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174533,
+    "TenantId": 7496,
+    "MeasureId": 29058533,
+    "ConditionalFormula": "Measure.[LY Ttl Sls Rtl Shifted]<>Measure.[LY Ttl Sls Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174534,
+    "TenantId": 7496,
+    "MeasureId": 29058545,
+    "ConditionalFormula": "(Measure.[BU Vs TY Rec Rtl])<0.05||(Measure.[BU Vs TY Rec Rtl])==0.05&&(Measure.[BU Vs TY Rec Rtl])>0",
+    "BGCOLOR": "argb(1,255,255,0)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174535,
+    "TenantId": 7496,
+    "MeasureId": 29058545,
+    "ConditionalFormula": "(Measure.[BU Vs TY Rec Rtl])>0.05&&(Measure.[BU Vs TY Rec Rtl]<0.10)",
+    "BGCOLOR": "argb(1,255,165,0)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174536,
+    "TenantId": 7496,
+    "MeasureId": 29058545,
+    "ConditionalFormula": "(Measure.[BU Vs TY Rec Rtl])==0.10||(Measure.[BU Vs TY Rec Rtl]>0.10)",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 2,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174537,
+    "TenantId": 7496,
+    "MeasureId": 29058697,
+    "ConditionalFormula": "(Measure.[BU % Gap-Gross Margin(TY VS Planned)])<0.05||(Measure.[BU % Gap-Gross Margin(TY VS Planned)])==0.05&&(Measure.[BU % Gap-Gross Margin(TY VS Planned)])>0",
+    "BGCOLOR": "argb(1,255,255,0)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174538,
+    "TenantId": 7496,
+    "MeasureId": 29058697,
+    "ConditionalFormula": "(Measure.[BU % Gap-Gross Margin(TY VS Planned)])>0.05&&(Measure.[BU % Gap-Gross Margin(TY VS Planned)]<0.10)",
+    "BGCOLOR": "argb(1,255,165,0)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174539,
+    "TenantId": 7496,
+    "MeasureId": 29058697,
+    "ConditionalFormula": "(Measure.[BU % Gap-Gross Margin(TY VS Planned)])==0.10||(Measure.[BU % Gap-Gross Margin(TY VS Planned)]>0.10)",
+    "BGCOLOR": "argb(1,255,0,0)",
+    "LegendText": "",
+    "DisplayOrder": 2,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174540,
+    "TenantId": 7496,
+    "MeasureId": 29060148,
+    "ConditionalFormula": "isnull(measure.[Heat Map Threshold Band4 L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174541,
+    "TenantId": 7496,
+    "MeasureId": 29060157,
+    "ConditionalFormula": "ISnull(measure.[Heat Map Threshold Band3 L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174542,
+    "TenantId": 7496,
+    "MeasureId": 29060194,
+    "ConditionalFormula": "ISnull(measure.[Heat Map Threshold Band2 L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174543,
+    "TenantId": 7496,
+    "MeasureId": 29060245,
+    "ConditionalFormula": "ISnull(measure.[Heat Map Threshold Band1 L3])",
+    "BGCOLOR": "argb(1,247,215,215)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 174544,
+    "TenantId": 7496,
+    "MeasureId": 29061091,
+    "ConditionalFormula": "Measure.[TD Gross Margin %]>Measure.[TD Gross Margin LY Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174545,
+    "TenantId": 7496,
+    "MeasureId": 29061091,
+    "ConditionalFormula": "Measure.[TD Gross Margin %]<Measure.[TD Gross Margin LY Rtl]",
+    "BGCOLOR": "",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 174546,
+    "TenantId": 7496,
+    "MeasureId": 29064755,
+    "ConditionalFormula": "Measure.[Date Validation]>0",
+    "BGCOLOR": "argb(1,251,180,174)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 174547,
+    "TenantId": 7496,
+    "MeasureId": 29068454,
+    "ConditionalFormula": "Measure.[Holiday Spikes]>0.60",
+    "BGCOLOR": "argb(1,102,176,50)",
+    "LegendText": "",
+    "DisplayOrder": 0,
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 174548,
+    "TenantId": 7496,
+    "MeasureId": 29068454,
+    "ConditionalFormula": "Measure.[Holiday Spikes]>0.40&&Measure.[Holiday Spikes]<=0.60",
+    "BGCOLOR": "argb(1,178,215,50)",
+    "LegendText": "",
+    "DisplayOrder": 1,
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 174549,
+    "TenantId": 7496,
+    "MeasureId": 29068454,
+    "ConditionalFormula": "Measure.[Holiday Spikes]>0.20&&Measure.[Holiday Spikes]<=0.40",
+    "BGCOLOR": "argb(1,240,247,212)",
+    "LegendText": "",
+    "DisplayOrder": 2,
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 174550,
+    "TenantId": 7496,
+    "MeasureId": 29068454,
+    "ConditionalFormula": "Measure.[Holiday Spikes]<=0.20",
+    "BGCOLOR": "argb(1,255,255,240)",
+    "LegendText": "",
+    "DisplayOrder": 3,
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  }
+]

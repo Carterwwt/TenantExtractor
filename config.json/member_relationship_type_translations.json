@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 21310,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 544889,
+    "RelationshipTypeName": "Substitute Item Priority",
+    "RelationshipTypeDescription": "Substitute Item WIP Sweep Priority",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 21311,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 544901,
+    "RelationshipTypeName": "Item * Region * Location - Location * Day",
+    "RelationshipTypeDescription": "Item * Region * Location - Location * Day",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 21312,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 544905,
+    "RelationshipTypeName": "Region - Region * Day",
+    "RelationshipTypeDescription": "Region - Region * Day",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 21313,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 544923,
+    "RelationshipTypeName": "Location - Location * Day",
+    "RelationshipTypeDescription": "Location - Location * Day",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 21314,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 544937,
+    "RelationshipTypeName": "Item * Location - Location * Day",
+    "RelationshipTypeDescription": "Item * Location - Location * Day",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 21315,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 544950,
+    "RelationshipTypeName": "Currency - Currency * Month",
+    "RelationshipTypeDescription": "Currency - Currency * Month",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 21316,
+    "TenantId": 7496,
+    "MemberRelationshipTypeId": 545141,
+    "RelationshipTypeName": "Pegged Quantity Header Item",
+    "RelationshipTypeDescription": "Pegged Quantity Header Item: Represents the total pegged quantity for an item at Header level, as calculated by the solver based on demands and operational constraints.",
+    "LCID": 1033,
+    "Language": null,
+    "ModuleId": "5fb00a3a-3d20-4d2b-b866-61ef1c0c40b2"
+  }
+]

@@ -1,0 +1,740 @@
+[
+  {
+    "Id": 155039,
+    "TenantId": 7496,
+    "PlanId": "550eb46e-6815-6131-4d1c-22658d18b2de",
+    "PlanName": "Algorithm Parameters",
+    "PlanDescription": "mPower planning parameters",
+    "PlanType": "Regular",
+    "ModuleId": null
+  },
+  {
+    "Id": 155040,
+    "TenantId": 7496,
+    "PlanId": "82f0c467-99cd-2cd6-26ea-4a15935190d3",
+    "PlanName": "Stat ML Forecasting",
+    "PlanDescription": "Plan containing data for Basic Stat, ML Forecasting and AI Predict workflows",
+    "PlanType": "Regular",
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 155041,
+    "TenantId": 7496,
+    "PlanId": "488e6e60-7f3a-4515-b5c5-008210c3056f",
+    "PlanName": "AI Predict Plan",
+    "PlanDescription": "AI Predict Plan",
+    "PlanType": "Regular",
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 155042,
+    "TenantId": 7496,
+    "PlanId": "208aa314-dcbf-5d07-acc4-a8701cb14d26",
+    "PlanName": "Foundation Data",
+    "PlanDescription": "Plan containing all common data and workflows across all solutions",
+    "PlanType": "Regular",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 155043,
+    "TenantId": 7496,
+    "PlanId": "982a6f39-bcdc-00c1-2139-2828bb0615c8",
+    "PlanName": "Size Profiler",
+    "PlanDescription": "Size Profiler",
+    "PlanType": "Regular",
+    "ModuleId": "eeb2bc27-d481-4b7e-a0b6-b141b110a4a4"
+  },
+  {
+    "Id": 155044,
+    "TenantId": 7496,
+    "PlanId": "ce3fbb85-6484-4e57-b558-568d2dff00cc",
+    "PlanName": "Assortment Sales and Buy Plan",
+    "PlanDescription": "Assortment Sales and Buy Plan",
+    "PlanType": "Regular",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 155045,
+    "TenantId": 7496,
+    "PlanId": "bc667d98-b961-43b9-8031-ca88b6a42e99",
+    "PlanName": "Assortment Ranging",
+    "PlanDescription": "Assortment Ranging",
+    "PlanType": "Regular",
+    "ModuleId": "97428148-218e-4b85-81d1-68ef84f70b05"
+  },
+  {
+    "Id": 155046,
+    "TenantId": 7496,
+    "PlanId": "512873f9-2deb-4e0e-a750-b56bd3c4c4ab",
+    "PlanName": "Assortment Options Strategy",
+    "PlanDescription": "Assortment Options Strategy",
+    "PlanType": "Regular",
+    "ModuleId": "eb48e7fa-4ec8-45bf-a965-ccd035a00872"
+  },
+  {
+    "Id": 155047,
+    "TenantId": 7496,
+    "PlanId": "799eb19f-bc1c-43d6-b372-1c88495ab64c",
+    "PlanName": "Assortment ROS",
+    "PlanDescription": "Assortment ROS",
+    "PlanType": "Regular",
+    "ModuleId": "c6833622-0e96-4f42-bcce-fba1a353cfc5"
+  },
+  {
+    "Id": 155048,
+    "TenantId": 7496,
+    "PlanId": "ff8aebf0-ecf1-8cf5-0a2c-79575fda67d8",
+    "PlanName": "Inventory Rebalancing",
+    "PlanDescription": "Inventory Rebalancing",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155049,
+    "TenantId": 7496,
+    "PlanId": "28506cd3-54b6-4e0e-b98e-9b10081bbf09",
+    "PlanName": "Assortment Line Build",
+    "PlanDescription": "Assortment Line Build",
+    "PlanType": "Regular",
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 155050,
+    "TenantId": 7496,
+    "PlanId": "6d41c74c-1e56-430c-b657-31c2cf094f0f",
+    "PlanName": "Supply Plan Daily Reports",
+    "PlanDescription": "Contains all the MGs related to post solver rules used for reporting",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155051,
+    "TenantId": 7496,
+    "PlanId": "1bf5ab7e-4115-46d1-9ac5-390e778876a0",
+    "PlanName": "Supply Plan Weekly Reports",
+    "PlanDescription": "Contains all the MGs related to post solver rules used for reporting",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155052,
+    "TenantId": 7496,
+    "PlanId": "1a7b7a9e-7d7c-4f63-acc0-2be72d37cdca",
+    "PlanName": "Supply Plan Weekly Nexprime Inputs",
+    "PlanDescription": "Supply Plan Weekly Nexprime Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155053,
+    "TenantId": 7496,
+    "PlanId": "f037c360-77c5-c18e-ac6b-49b3bdc86ece",
+    "PlanName": "Supply Plan Planning Transactional Inputs",
+    "PlanDescription": "Supply Plan Planning Transactional Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155054,
+    "TenantId": 7496,
+    "PlanId": "ae962545-43cd-4294-8953-41212b202839",
+    "PlanName": "Supply Plan Common Nexprime Inputs",
+    "PlanDescription": "Nexprime Common Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155055,
+    "TenantId": 7496,
+    "PlanId": "83802ad7-a4ef-42d0-bb0f-faf4c6f1d1b1",
+    "PlanName": "Supply Plan Daily Nexprime Inputs",
+    "PlanDescription": "Supply Plan Daily Nexprime Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155056,
+    "TenantId": 7496,
+    "PlanId": "151ba3dd-4213-4787-5d00-b8bdb46e516e",
+    "PlanName": "Load Builder Weekly Inputs",
+    "PlanDescription": "Weekly inputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155057,
+    "TenantId": 7496,
+    "PlanId": "eead21bf-cda1-4a81-a7e0-9a9d4dcbe11c",
+    "PlanName": "Supply Plan Weekly Solver Inputs and Outputs",
+    "PlanDescription": "Contains all the MGs for solver inputs and outputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155058,
+    "TenantId": 7496,
+    "PlanId": "0024d0bc-fc04-4f4f-bc23-22777b929233",
+    "PlanName": "Supply Plan Daily Data Validation",
+    "PlanDescription": "Contains all the MGs required for Daily Supply Plan data validations",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155059,
+    "TenantId": 7496,
+    "PlanId": "ccf09f89-7570-49b1-846a-ae4983eedfc5",
+    "PlanName": "Supply Plan Daily Scenario Planning",
+    "PlanDescription": "Models the daily scenario planning workflows",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155060,
+    "TenantId": 7496,
+    "PlanId": "d573be94-2bc2-4ddd-8aef-56a1ee02351f",
+    "PlanName": "Supply Plan Monthly Solver Inputs and Outputs",
+    "PlanDescription": "Supply Plan Monthly Solver Inputs and Outputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155061,
+    "TenantId": 7496,
+    "PlanId": "0a19b47d-8644-bee1-2654-a21cdf0d94d2",
+    "PlanName": "Supply Plan Where Used",
+    "PlanDescription": "Supply Plan Where Used",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155062,
+    "TenantId": 7496,
+    "PlanId": "697901ea-c6f9-4306-a8c5-24c792a6e3f9",
+    "PlanName": "Supply Plan Daily Solver Inputs and Outputs",
+    "PlanDescription": "Contains all the MGs for solver inputs and outputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155063,
+    "TenantId": 7496,
+    "PlanId": "488a82d1-d093-4546-8b16-cfd7af1ead5e",
+    "PlanName": "Supply Planning Process Interactions",
+    "PlanDescription": "Supply Planning Process Interactions",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155064,
+    "TenantId": 7496,
+    "PlanId": "4a9a0814-773c-388e-c68a-634574ab3100",
+    "PlanName": "Load Builder Monthly Outputs",
+    "PlanDescription": "Monthly outputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155065,
+    "TenantId": 7496,
+    "PlanId": "94a0412c-eeac-7722-32cd-fc9bf5f338d9",
+    "PlanName": "Load Builder Monthly Inputs",
+    "PlanDescription": "Monthly inputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155066,
+    "TenantId": 7496,
+    "PlanId": "6b1c0a7e-a450-423b-916f-cd028d6f2350",
+    "PlanName": "Supply Plan Common Data Validation",
+    "PlanDescription": "Supply Plan Common Data Validation",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155067,
+    "TenantId": 7496,
+    "PlanId": "9de886de-c043-c8e2-88b3-e43bd1ceab92",
+    "PlanName": "Demand Based Network Selection",
+    "PlanDescription": "Demand Based Network Selection at demand nodes",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155068,
+    "TenantId": 7496,
+    "PlanId": "09a77d40-be79-4fe4-a0ad-801df4ba0bd2",
+    "PlanName": "Supply Plan Weekly Data Validation",
+    "PlanDescription": "Contains all the MGs required for weekly Supply Plan data validations",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155069,
+    "TenantId": 7496,
+    "PlanId": "9acc1524-5fd6-27f7-cd23-7517a7fea6f1",
+    "PlanName": "Supply Plan Common Solver Inputs and Outputs",
+    "PlanDescription": "Common Solver Inputs and Outputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155070,
+    "TenantId": 7496,
+    "PlanId": "bd2b8f7b-4c7b-47ae-8b0f-ec55f9ebdf97",
+    "PlanName": "Supply Plan Daily Inventory Rebalance",
+    "PlanDescription": "Inventory Rebalance Inputs Outputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155071,
+    "TenantId": 7496,
+    "PlanId": "4f8b73fe-65a0-3cc6-4e32-d1b7305fc6c1",
+    "PlanName": "Load Builder Common Inputs",
+    "PlanDescription": "Common inputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155072,
+    "TenantId": 7496,
+    "PlanId": "1fb74228-abcc-b923-b46f-32898c55531a",
+    "PlanName": "Supply Plan Common Network Substitution",
+    "PlanDescription": "Network Substitution",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155073,
+    "TenantId": 7496,
+    "PlanId": "e9702258-7c05-4662-992c-4ed041b7988e",
+    "PlanName": "Supply Plan Weekly Scenario Planning",
+    "PlanDescription": "Contains all the MGs for Incremental and scenario planning",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155074,
+    "TenantId": 7496,
+    "PlanId": "1a179103-044a-4374-8eba-d9c09d7aaff2",
+    "PlanName": "Supply Plan Monthly Inputs",
+    "PlanDescription": "Supply Plan Monthly Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155075,
+    "TenantId": 7496,
+    "PlanId": "334f9105-e53f-496d-b63c-73376a903f16",
+    "PlanName": "GraphPlan",
+    "PlanDescription": "GraphPlan",
+    "PlanType": "Regular",
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  },
+  {
+    "Id": 155076,
+    "TenantId": 7496,
+    "PlanId": "13981ec4-aeef-4089-883f-6928682e2a4e",
+    "PlanName": "Supply Plan Monthly Reports",
+    "PlanDescription": "Contains all the MGs for Monthly Reports",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155077,
+    "TenantId": 7496,
+    "PlanId": "5817f6b0-cfe4-dd0e-adff-6ad2206202e6",
+    "PlanName": "Supply Plan Financial Reports",
+    "PlanDescription": "Supply Plan Financial Reports",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155078,
+    "TenantId": 7496,
+    "PlanId": "d3a6bda2-2ba0-1fb0-66d8-7bc6d195a15a",
+    "PlanName": "Supply Plan Weekly Inventory Rebalance",
+    "PlanDescription": "Weekly Inventory Rebalance Inputs Outputs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155079,
+    "TenantId": 7496,
+    "PlanId": "6dac9e25-8a4c-421f-9cc8-45b6241ef91a",
+    "PlanName": "Supply Plan Weekly Procurement Planning",
+    "PlanDescription": "Contains measures for the procurement planning",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155080,
+    "TenantId": 7496,
+    "PlanId": "61d95418-32ea-401a-a823-0888c1b3139d",
+    "PlanName": "Supply Plan Monthly Scenario Planning",
+    "PlanDescription": "Supply Plan Monthly Scenario Planning",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155081,
+    "TenantId": 7496,
+    "PlanId": "3436478d-7832-18e3-6f01-24dcaf5f728c",
+    "PlanName": "Supply Plan Handoffs",
+    "PlanDescription": "Supply Plan Handoffs",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155082,
+    "TenantId": 7496,
+    "PlanId": "4d9bfff4-34e9-4356-b05d-775f3fd20cca",
+    "PlanName": "Supply Plan Daily Procurement Planning",
+    "PlanDescription": "Supply Plan Daily Procurement Planning",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155083,
+    "TenantId": 7496,
+    "PlanId": "1737bdda-50a5-f54f-50bb-9ed2091ff1f7",
+    "PlanName": "Load Builder Daily Inputs",
+    "PlanDescription": "Daily inputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155084,
+    "TenantId": 7496,
+    "PlanId": "271c69e7-d05c-46ca-863c-1e4b01e535db",
+    "PlanName": "Supply Plan Common Reports",
+    "PlanDescription": "Supply Plan Common Reports",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155085,
+    "TenantId": 7496,
+    "PlanId": "384e6de3-bd23-3ae4-432b-6a68ab6d985e",
+    "PlanName": "Supply Plan Daily MRP Common Inputs",
+    "PlanDescription": "Supply Plan Daily MRP Common Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155086,
+    "TenantId": 7496,
+    "PlanId": "987fec55-2c0e-bb72-e4a2-d4bc96216817",
+    "PlanName": "Common Solver Inputs and Outputs Multi Step Routing",
+    "PlanDescription": "For Multi Step Routing, the inputs and outputs fetched up to the solver",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155087,
+    "TenantId": 7496,
+    "PlanId": "50e6382c-5af0-4241-99d5-75604b4de4a5",
+    "PlanName": "Supply Plan Daily Inputs",
+    "PlanDescription": "Contains all the core inputs of the Ref Model via flat files and also the intermediate measures used in create network, Netting etc",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155088,
+    "TenantId": 7496,
+    "PlanId": "851d4ea7-d3a2-4832-8540-0dd4f123543e",
+    "PlanName": "Supply Plan Common Inputs",
+    "PlanDescription": "Supply Plan Common Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155089,
+    "TenantId": 7496,
+    "PlanId": "f338171f-a5c0-4fc3-93da-b12e8de67e0f",
+    "PlanName": "Supply Plan Weekly Inputs",
+    "PlanDescription": "Contains all the core inputs of the Ref Model via flat files and also the intermediate measures used in create network, Netting etc",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155090,
+    "TenantId": 7496,
+    "PlanId": "32411c9b-b943-131b-a3e6-36a66301a192",
+    "PlanName": "IDB Framework",
+    "PlanDescription": "IDB Framework",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155091,
+    "TenantId": 7496,
+    "PlanId": "49729856-9fdd-5759-1abf-edba17c305da",
+    "PlanName": "Supply Plan Foundation Data Validations",
+    "PlanDescription": "Supply Plan Foundation Data Validations",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155092,
+    "TenantId": 7496,
+    "PlanId": "f3b51177-9749-4dde-8745-ffad8c7116ab",
+    "PlanName": "Supply Plan Common Outputs",
+    "PlanDescription": "Common Outputs",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155093,
+    "TenantId": 7496,
+    "PlanId": "9af9b76b-66f9-4ef6-b2cc-e733c9ec2986",
+    "PlanName": "Supply Plan Financial Inputs",
+    "PlanDescription": "Supply Plan Financial Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155094,
+    "TenantId": 7496,
+    "PlanId": "0c62c02a-ab01-23c2-6726-3d8373dec384",
+    "PlanName": "Integration Outbound Parameters",
+    "PlanDescription": "Integration Outbound Parameters",
+    "PlanType": "Regular",
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  },
+  {
+    "Id": 155095,
+    "TenantId": 7496,
+    "PlanId": "54407e0c-adec-169c-c355-c614b89b64a7",
+    "PlanName": "Line Speed Flag",
+    "PlanDescription": "Line Speed Flag",
+    "PlanType": "Regular",
+    "ModuleId": "89ea750b-98c6-4aa1-aee2-7136e4f17745"
+  },
+  {
+    "Id": 155096,
+    "TenantId": 7496,
+    "PlanId": "3e10ed2f-200e-4186-bf39-bb0f2d26c679",
+    "PlanName": "MFP RMA Location Plan",
+    "PlanDescription": "MFP Retail Method of Accounting Location Plan",
+    "PlanType": "Regular",
+    "ModuleId": "872cd171-8caa-4e3a-bd94-265838c2d91a"
+  },
+  {
+    "Id": 155097,
+    "TenantId": 7496,
+    "PlanId": "f5b043e2-f3d2-453b-9317-adbdb6aebeec",
+    "PlanName": "Foundation MFP",
+    "PlanDescription": "MFP Retail Method of Accounting for Foundation",
+    "PlanType": "Regular",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 155098,
+    "TenantId": 7496,
+    "PlanId": "f275563d-fc5f-44a8-82c2-9da9af8e679f",
+    "PlanName": "Foundation Replenishment",
+    "PlanDescription": "Foundation Replenishment",
+    "PlanType": "Regular",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 155099,
+    "TenantId": 7496,
+    "PlanId": "5c2c1582-20aa-4ca9-b9ae-974f198c71d2",
+    "PlanName": "Foundation Assortment",
+    "PlanDescription": "Foundation Assortment",
+    "PlanType": "Regular",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 155100,
+    "TenantId": 7496,
+    "PlanId": "2c7e3479-7627-4038-8f3b-5277ba61a16d",
+    "PlanName": "MFP RMA Product Plan",
+    "PlanDescription": "MFP Retail Method of Accounting Product Plan",
+    "PlanType": "Regular",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 155101,
+    "TenantId": 7496,
+    "PlanId": "ff8c855c-d1cd-4678-b5d1-98036da7d2a9",
+    "PlanName": "Common Transaction Model",
+    "PlanDescription": "Common Transaction Model",
+    "PlanType": "Regular",
+    "ModuleId": "ddab5036-c377-42df-a830-e56e77624e89"
+  },
+  {
+    "Id": 155102,
+    "TenantId": 7496,
+    "PlanId": "1a7b2c76-88c3-43ff-b483-7ccf849374cb",
+    "PlanName": "Common Framework",
+    "PlanDescription": "Common Framework",
+    "PlanType": "Regular",
+    "ModuleId": "ddab5036-c377-42df-a830-e56e77624e89"
+  },
+  {
+    "Id": 155103,
+    "TenantId": 7496,
+    "PlanId": "1d0a5e5b-d81a-1305-f652-e4ee650ac5f5",
+    "PlanName": "Common Analytics Outputs",
+    "PlanDescription": "Common Analytics Outputs",
+    "PlanType": "Regular",
+    "ModuleId": "ddab5036-c377-42df-a830-e56e77624e89"
+  },
+  {
+    "Id": 155104,
+    "TenantId": 7496,
+    "PlanId": "bd74d535-e87d-4db1-bfa8-c15c34f49d35",
+    "PlanName": "Prioritization Plan",
+    "PlanDescription": "Prioritization Plan",
+    "PlanType": "Regular",
+    "ModuleId": "49b150bd-7b0d-4c1a-b4a1-5155143e3bbc"
+  },
+  {
+    "Id": 155105,
+    "TenantId": 7496,
+    "PlanId": "c442a650-90bb-4a40-4ad4-4204ac434697",
+    "PlanName": "Generic Prioritization Plan",
+    "PlanDescription": "Contains MGs for Genric Priortization",
+    "PlanType": "Regular",
+    "ModuleId": "49b150bd-7b0d-4c1a-b4a1-5155143e3bbc"
+  },
+  {
+    "Id": 155106,
+    "TenantId": 7496,
+    "PlanId": "ccd7a882-f559-08c1-547c-d15710cb5c55",
+    "PlanName": "Load Builder Weekly Outputs",
+    "PlanDescription": "Weekly outputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155107,
+    "TenantId": 7496,
+    "PlanId": "2f2d7d3d-ff4b-0a0f-28c8-7c65ce45fd87",
+    "PlanName": "Load Builder Daily Outputs",
+    "PlanDescription": "Daily outputs for load builder",
+    "PlanType": "Regular",
+    "ModuleId": "0f784411-720c-4319-bc9a-c0994d2eb20e"
+  },
+  {
+    "Id": 155108,
+    "TenantId": 7496,
+    "PlanId": "94ec1994-b0e3-effa-522e-50ea2631166d",
+    "PlanName": "Supply Plan Monthly Data Validation",
+    "PlanDescription": "Contains all the MGs required for Monthly Supply Plan data validations",
+    "PlanType": "Regular",
+    "ModuleId": "5fb00a3a-3d20-4d2b-b866-61ef1c0c40b2"
+  },
+  {
+    "Id": 155109,
+    "TenantId": 7496,
+    "PlanId": "7a456be3-7752-4f7b-add6-c597e98934da",
+    "PlanName": "Common Demand Netting",
+    "PlanDescription": "Plan for Forecast Netting",
+    "PlanType": "Regular",
+    "ModuleId": "ec3d04db-c5c2-4b47-9799-9ed962d3f306"
+  },
+  {
+    "Id": 155110,
+    "TenantId": 7496,
+    "PlanId": "fcf42867-4181-f410-e794-004086b3b897",
+    "PlanName": "Supply Plan Weekly MRP Common Inputs",
+    "PlanDescription": "Supply Plan Weekly MRP Common Inputs",
+    "PlanType": "Regular",
+    "ModuleId": "c351998a-7d04-495f-bef9-d202bf295988"
+  },
+  {
+    "Id": 155111,
+    "TenantId": 7496,
+    "PlanId": "1c20cfba-97af-4151-8ae8-70ac191bc5b5",
+    "PlanName": "Replenishment Flow Plan Daily",
+    "PlanDescription": "Replenishment Flow Plan Daily",
+    "PlanType": "Regular",
+    "ModuleId": "9d5b1914-72d3-4490-b4c6-bed4165aa9cc"
+  },
+  {
+    "Id": 155112,
+    "TenantId": 7496,
+    "PlanId": "9b69026f-05ef-0ed6-af09-920cc71ce3e0",
+    "PlanName": "Replenishment DILOP",
+    "PlanDescription": "Replenishment DILOP",
+    "PlanType": "Regular",
+    "ModuleId": "ad45cd90-f934-4050-9deb-db09941fd4be"
+  },
+  {
+    "Id": 155113,
+    "TenantId": 7496,
+    "PlanId": "c88b3ed5-bcc5-0870-5de9-2f15688c899c",
+    "PlanName": "Allocation DILOP",
+    "PlanDescription": "Allocation DILOP",
+    "PlanType": "Regular",
+    "ModuleId": "ad45cd90-f934-4050-9deb-db09941fd4be"
+  },
+  {
+    "Id": 155114,
+    "TenantId": 7496,
+    "PlanId": "bc144457-5b05-8973-93c6-50faed8fc6a2",
+    "PlanName": "Allocation Planning",
+    "PlanDescription": "Allocation Planning",
+    "PlanType": "Regular",
+    "ModuleId": "2c346251-8901-4f55-8032-8ca23d6a079d"
+  },
+  {
+    "Id": 155115,
+    "TenantId": 7496,
+    "PlanId": "4ea17145-acbc-ec19-0fa5-dc3c55fe2be7",
+    "PlanName": "Common Product Configuration Plan",
+    "PlanDescription": "Common Product Configuration Plan",
+    "PlanType": "Regular",
+    "ModuleId": "69c63dc5-4f82-4296-89e9-7839154cd5be"
+  },
+  {
+    "Id": 155116,
+    "TenantId": 7496,
+    "PlanId": "6ae9bd66-a39f-465e-8529-2746be6f2aa1",
+    "PlanName": "EKGDeployment",
+    "PlanDescription": "EKGDeployment",
+    "PlanType": "Regular",
+    "ModuleId": "c5dfb0f8-a9ea-4208-a148-5e7adb4dad96"
+  },
+  {
+    "Id": 155117,
+    "TenantId": 7496,
+    "PlanId": "f80ab063-f22e-9783-9347-25181526805f",
+    "PlanName": "o9EKG Configurator",
+    "PlanDescription": "o9EKG Configurator",
+    "PlanType": "Regular",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 155118,
+    "TenantId": 7496,
+    "PlanId": "e5f59e47-feaf-f14f-08c6-73dc76e21688",
+    "PlanName": "o9 Report Configurator",
+    "PlanDescription": "o9 Report Configurator",
+    "PlanType": "Regular",
+    "ModuleId": "b7824156-8448-4b9b-8b7e-6397b69f9391"
+  },
+  {
+    "Id": 155119,
+    "TenantId": 7496,
+    "PlanId": "1b54d87b-c2c7-4596-85d4-d2a6ba2a88f2",
+    "PlanName": "Integration Database Designer",
+    "PlanDescription": "Integration Database Designer",
+    "PlanType": "Regular",
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  },
+  {
+    "Id": 155120,
+    "TenantId": 7496,
+    "PlanId": "20b63752-180d-40e8-9b44-6bc038dc828c",
+    "PlanName": "Integration Batch Metric",
+    "PlanDescription": "Integration Batch Metric",
+    "PlanType": "Regular",
+    "ModuleId": "4c075c57-6f44-464e-a1ec-c23fe53c4d44"
+  }
+]

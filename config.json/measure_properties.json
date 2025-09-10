@@ -1,0 +1,672 @@
+[
+  {
+    "Id": 51085,
+    "TenantId": 7496,
+    "MeasureId": 29055305,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[ROS Override SC C] == 0 && Measure.[Assorted SC L] == True) then 0 else 1",
+    "ToolTip": "Assorted Item has 0 ROS",
+    "ModuleId": "97428148-218e-4b85-81d1-68ef84f70b05"
+  },
+  {
+    "Id": 51086,
+    "TenantId": 7496,
+    "MeasureId": 29055596,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Country Receipt Week1 %],Measure.[Country Receipt Week2 %],Measure.[Country Receipt Week3 %],Measure.[Country Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51087,
+    "TenantId": 7496,
+    "MeasureId": 29055598,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Country Receipt Week4]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51088,
+    "TenantId": 7496,
+    "MeasureId": 29055599,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Country Receipt Week1]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51089,
+    "TenantId": 7496,
+    "MeasureId": 29055600,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Country Receipt Week2]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51090,
+    "TenantId": 7496,
+    "MeasureId": 29055654,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Country Receipt Week3]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51091,
+    "TenantId": 7496,
+    "MeasureId": 29055657,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Country Receipt Week1 %],Measure.[Country Receipt Week2 %],Measure.[Country Receipt Week3 %],Measure.[Country Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51092,
+    "TenantId": 7496,
+    "MeasureId": 29055660,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Country Receipt Week1 %],Measure.[Country Receipt Week2 %],Measure.[Country Receipt Week3 %],Measure.[Country Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51093,
+    "TenantId": 7496,
+    "MeasureId": 29055661,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Country Receipt Week1 %],Measure.[Country Receipt Week2 %],Measure.[Country Receipt Week3 %],Measure.[Country Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51094,
+    "TenantId": 7496,
+    "MeasureId": 29055951,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Total Weightage]==1 )then 1 else 0",
+    "ToolTip": "Total Weightage is not 100%",
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 51095,
+    "TenantId": 7496,
+    "MeasureId": 29056331,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Start Week SC LC] < Measure.[Start Week L3 SS] || Measure.[Start Week SC LC] > Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Start Week Outside Class Selling Season",
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 51096,
+    "TenantId": 7496,
+    "MeasureId": 29056402,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[SP Seed Weightage 1],Measure.[SP Seed Weightage 2],Measure.[SP Seed Weightage 3])==0 || sum(Measure.[SP Seed Weightage 1],Measure.[SP Seed Weightage 2],Measure.[SP Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51097,
+    "TenantId": 7496,
+    "MeasureId": 29056414,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[SP Seed Weightage 1],Measure.[SP Seed Weightage 2],Measure.[SP Seed Weightage 3])==0 || sum(Measure.[SP Seed Weightage 1],Measure.[SP Seed Weightage 2],Measure.[SP Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51098,
+    "TenantId": 7496,
+    "MeasureId": 29056416,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[SP Seed Weightage 1],Measure.[SP Seed Weightage 2],Measure.[SP Seed Weightage 3])==0 || sum(Measure.[SP Seed Weightage 1],Measure.[SP Seed Weightage 2],Measure.[SP Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51099,
+    "TenantId": 7496,
+    "MeasureId": 29057043,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[End Week SC LC] > Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "End Week cannot go beyond Selling Season End Date",
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 51100,
+    "TenantId": 7496,
+    "MeasureId": 29057072,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[End Week SC LC] > Measure.[End Week L3 SS] || Measure.[End Week SC LC] < Measure.[Start Week L3 SS] || Measure.[Start Week SC LC]==Measure.[End Week SC LC]) then 0 else 1",
+    "ToolTip": "End Week Outside Class Selling Season or Start and End Week are the Same",
+    "ModuleId": "f248c782-eff0-4b45-beed-353b2a64cedd"
+  },
+  {
+    "Id": 51101,
+    "TenantId": 7496,
+    "MeasureId": 29057598,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])==0 || sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])== 1) then 1 else 0",
+    "ToolTip": "Receipt % sum is not equal to 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51102,
+    "TenantId": 7496,
+    "MeasureId": 29057599,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])==0 || sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])== 1) then 1 else 0",
+    "ToolTip": "Receipt % sum is not equal to 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51103,
+    "TenantId": 7496,
+    "MeasureId": 29057603,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])==0 || sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])== 1) then 1 else 0",
+    "ToolTip": "Receipt % sum is not equal to 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51104,
+    "TenantId": 7496,
+    "MeasureId": 29057605,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])==0 || sum(Measure.[Receipt Week1 %],Measure.[Receipt Week2 %],Measure.[Receipt Week3 %],Measure.[Receipt Week4 %])== 1) then 1 else 0",
+    "ToolTip": "Receipt % sum is not equal to 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51105,
+    "TenantId": 7496,
+    "MeasureId": 29058180,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[BU Seed Weightage 1],Measure.[BU Seed Weightage 2],Measure.[BU Seed Weightage 3])==0 || sum(Measure.[BU Seed Weightage 1],Measure.[BU Seed Weightage 2],Measure.[BU Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51106,
+    "TenantId": 7496,
+    "MeasureId": 29058404,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Channel Receipt Week1 %],Measure.[Channel Receipt Week2 %],Measure.[Channel Receipt Week3 %],Measure.[Channel Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51107,
+    "TenantId": 7496,
+    "MeasureId": 29058412,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Channel Receipt Week1 %],Measure.[Channel Receipt Week2 %],Measure.[Channel Receipt Week3 %],Measure.[Channel Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51108,
+    "TenantId": 7496,
+    "MeasureId": 29058415,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Channel Receipt Week1 %],Measure.[Channel Receipt Week2 %],Measure.[Channel Receipt Week3 %],Measure.[Channel Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51109,
+    "TenantId": 7496,
+    "MeasureId": 29058430,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Channel Receipt Week1 %],Measure.[Channel Receipt Week2 %],Measure.[Channel Receipt Week3 %],Measure.[Channel Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51110,
+    "TenantId": 7496,
+    "MeasureId": 29058486,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[BU Seed Weightage 1],Measure.[BU Seed Weightage 2],Measure.[BU Seed Weightage 3])==0 || sum(Measure.[BU Seed Weightage 1],Measure.[BU Seed Weightage 2],Measure.[BU Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51111,
+    "TenantId": 7496,
+    "MeasureId": 29058506,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[BU Seed Weightage 1],Measure.[BU Seed Weightage 2],Measure.[BU Seed Weightage 3])==0 || sum(Measure.[BU Seed Weightage 1],Measure.[BU Seed Weightage 2],Measure.[BU Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51112,
+    "TenantId": 7496,
+    "MeasureId": 29059081,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[DC Receipt Week3]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51113,
+    "TenantId": 7496,
+    "MeasureId": 29059082,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[DC Receipt Week2]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51114,
+    "TenantId": 7496,
+    "MeasureId": 29059083,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[DC Receipt Week1]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51115,
+    "TenantId": 7496,
+    "MeasureId": 29059084,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[DC Receipt Week1 %],Measure.[DC Receipt Week2 %],Measure.[DC Receipt Week3 %],Measure.[DC Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51116,
+    "TenantId": 7496,
+    "MeasureId": 29059085,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[DC Receipt Week4]>Measure.[End Week L3 SS]) then 0 else 1",
+    "ToolTip": "Exceeds Selling Season End Week",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51117,
+    "TenantId": 7496,
+    "MeasureId": 29059086,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[DC Receipt Week1 %],Measure.[DC Receipt Week2 %],Measure.[DC Receipt Week3 %],Measure.[DC Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51118,
+    "TenantId": 7496,
+    "MeasureId": 29059089,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[DC Receipt Week1 %],Measure.[DC Receipt Week2 %],Measure.[DC Receipt Week3 %],Measure.[DC Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51119,
+    "TenantId": 7496,
+    "MeasureId": 29059090,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[DC Receipt Week1 %],Measure.[DC Receipt Week2 %],Measure.[DC Receipt Week3 %],Measure.[DC Receipt Week4 %])>1) then 0 else 1",
+    "ToolTip": "Receipt % sum exceeds 100",
+    "ModuleId": "c928002a-6e25-4e69-af62-e9065f3a8b31"
+  },
+  {
+    "Id": 51120,
+    "TenantId": 7496,
+    "MeasureId": 29060386,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Attr Seed Weightage 1],Measure.[Attr Seed Weightage 2],Measure.[Attr Seed Weightage 3])==0 || sum(Measure.[Attr Seed Weightage 1],Measure.[Attr Seed Weightage 2],Measure.[Attr Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51121,
+    "TenantId": 7496,
+    "MeasureId": 29060419,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if (Measure.[Product Launch Date] >= Measure.[NPI Initiative Start Date]) then 1 else 0",
+    "ToolTip": "Please enter a valid Product Launch Date.",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51122,
+    "TenantId": 7496,
+    "MeasureId": 29060437,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Initiative Duration]<0) then 0",
+    "ToolTip": "Initiative Duration cannot be negative",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51123,
+    "TenantId": 7496,
+    "MeasureId": 29060472,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Attr Seed Weightage 1],Measure.[Attr Seed Weightage 2],Measure.[Attr Seed Weightage 3])==0 || sum(Measure.[Attr Seed Weightage 1],Measure.[Attr Seed Weightage 2],Measure.[Attr Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51124,
+    "TenantId": 7496,
+    "MeasureId": 29060476,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Attr Seed Weightage 1],Measure.[Attr Seed Weightage 2],Measure.[Attr Seed Weightage 3])==0 || sum(Measure.[Attr Seed Weightage 1],Measure.[Attr Seed Weightage 2],Measure.[Attr Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51125,
+    "TenantId": 7496,
+    "MeasureId": 29060518,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[TD Seed Weightage 1],Measure.[TD Seed Weightage 2],Measure.[TD Seed Weightage 3])==0 || sum(Measure.[TD Seed Weightage 1],Measure.[TD Seed Weightage 2],Measure.[TD Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51126,
+    "TenantId": 7496,
+    "MeasureId": 29060697,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[TD Seed Weightage 1],Measure.[TD Seed Weightage 2],Measure.[TD Seed Weightage 3])==0 || sum(Measure.[TD Seed Weightage 1],Measure.[TD Seed Weightage 2],Measure.[TD Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51127,
+    "TenantId": 7496,
+    "MeasureId": 29061111,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[TD Seed Weightage 1],Measure.[TD Seed Weightage 2],Measure.[TD Seed Weightage 3])==0 || sum(Measure.[TD Seed Weightage 1],Measure.[TD Seed Weightage 2],Measure.[TD Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51128,
+    "TenantId": 7496,
+    "MeasureId": 29061445,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[OTB Recode Validation Flag] == 1 && Measure.[OTB Recode In] >=0) then 1 else 0",
+    "ToolTip": "Either Recode Out is not equal to Recode In OR Both Recode In and Recode Out have equal values for same Seasonality OR Recode Out is negative.",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51129,
+    "TenantId": 7496,
+    "MeasureId": 29061613,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[OTB Recode Validation Flag] == 1 && Measure.[OTB Recode Out]>=0 && Measure.[OTB EOP Cst]>=0) then 1 else 0",
+    "ToolTip": "Either Recode Out is not equal to Recode In OR Both Recode In and Recode Out have equal values for same Seasonality OR Recode In is negative OR Recode Out is such that EOP is becoming negative.",
+    "ModuleId": "e8a1d971-67ac-40b9-89f5-f60d79b5c317"
+  },
+  {
+    "Id": 51130,
+    "TenantId": 7496,
+    "MeasureId": 29062140,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Seed Weightage 1],Measure.[Seed Weightage 2],Measure.[Seed Weightage 3])==0 || sum(Measure.[Seed Weightage 1],Measure.[Seed Weightage 2],Measure.[Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 51131,
+    "TenantId": 7496,
+    "MeasureId": 29062172,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Seed Weightage 1],Measure.[Seed Weightage 2],Measure.[Seed Weightage 3])==0 || sum(Measure.[Seed Weightage 1],Measure.[Seed Weightage 2],Measure.[Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 51132,
+    "TenantId": 7496,
+    "MeasureId": 29062175,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(sum(Measure.[Seed Weightage 1],Measure.[Seed Weightage 2],Measure.[Seed Weightage 3])==0 || sum(Measure.[Seed Weightage 1],Measure.[Seed Weightage 2],Measure.[Seed Weightage 3])== 1) then 1 else 0",
+    "ToolTip": "Sum of Weightage is not equal to 100%",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 51133,
+    "TenantId": 7496,
+    "MeasureId": 29062251,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Validation Period]>Measure.[History Period]) then 0 else 1",
+    "ToolTip": "Validation Period Cannot be greater than History Period",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51134,
+    "TenantId": 7496,
+    "MeasureId": 29062351,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[Volume-COV History Period]<Measure.[History Period]) &&  (Measure.[Volume-COV History Period]>0)) then 1\nelse 0",
+    "ToolTip": "This value is not valid. Please check !",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51135,
+    "TenantId": 7496,
+    "MeasureId": 29063369,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(measure.[Week to PW Split Override]@(Time.#.AncestorsAtLevel([Week]).element(0))==0 || measure.[Week to PW Split Override]@(Time.#.AncestorsAtLevel([Week]).element(0))==1) then 1 else 0",
+    "ToolTip": "Sum of Partial weeks is not equal to 1",
+    "ModuleId": "d5a6c6d9-1161-4e67-9668-58aa708e9a75"
+  },
+  {
+    "Id": 51136,
+    "TenantId": 7496,
+    "MeasureId": 29064187,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[DP Exception Min Tolerance Freq] > Measure.[DP Exception Calculation Window]) then 0 else 1",
+    "ToolTip": "Tolerance Freq should be less then calculation window",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51137,
+    "TenantId": 7496,
+    "MeasureId": 29064421,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[Forecast Period WTD Profile]>111)) then 1\nelse 0",
+    "ToolTip": "Please enter a forecast duration of 112 days or more.",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51138,
+    "TenantId": 7496,
+    "MeasureId": 29064426,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[ML Validation Period]<Measure.[ML History Period]) &&  (Measure.[ML Validation Period]>0)) then 1\nelse 0",
+    "ToolTip": "This value is not valid. Please check !",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51139,
+    "TenantId": 7496,
+    "MeasureId": 29064429,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if (Measure.[ML History Period]>0) then 1\nelse 0",
+    "ToolTip": "This value is not valid. Please check !",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51140,
+    "TenantId": 7496,
+    "MeasureId": 29064430,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[History Period WTD Base Profile]>181)) then 1\nelse 0",
+    "ToolTip": "Please enter a history duration of 182 days or more (26 weeks).",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51141,
+    "TenantId": 7496,
+    "MeasureId": 29064451,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if (Measure.[Probability Threshold] <0) then 0",
+    "ToolTip": "The Probability Threshold cannot be negative.",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51142,
+    "TenantId": 7496,
+    "MeasureId": 29064462,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[Like Item History Period]>0)) then 1 else 0",
+    "ToolTip": "This value is not valid. Please check !",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51143,
+    "TenantId": 7496,
+    "MeasureId": 29064469,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if (Measure.[ML Forecast Period]>0) then 1\nelse 0",
+    "ToolTip": "This value is not valid. Please check !",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51144,
+    "TenantId": 7496,
+    "MeasureId": 29064487,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[History Period WTD Event Lift]>729)) then 1\nelse 0",
+    "ToolTip": "Please enter a history duration of 730 days or more (2 years).",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51145,
+    "TenantId": 7496,
+    "MeasureId": 29065609,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Stage Planned Start Date] > Measure.[Initiative Start]) then 1 else 0",
+    "ToolTip": "Stage Start date should be greater than the Project start date.",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51146,
+    "TenantId": 7496,
+    "MeasureId": 29065610,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Stage Actual Start Date] > Measure.[Initiative Start]) then 1 else 0",
+    "ToolTip": "Stage Start date should be greater than the Project start date.",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51147,
+    "TenantId": 7496,
+    "MeasureId": 29065618,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if(Measure.[Stage Actual End Date] > Measure.[Stage Actual Start Date]) then 1 else 0",
+    "ToolTip": "end date should be greater than the start date",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51148,
+    "TenantId": 7496,
+    "MeasureId": 29066262,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if (Measure.[Disco Date] > Measure.[Intro Date] && Measure.[Disco Date] >= Measure.[Independence Date]) then 1 else 0",
+    "ToolTip": "Please enter an appropriate Disco Date",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51149,
+    "TenantId": 7496,
+    "MeasureId": 29066286,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if (Measure.[Intro Date] < Measure.[Disco Date] && Measure.[Intro Date] < Measure.[Independence Date]) then 1 else 0",
+    "ToolTip": "Please enter an appropriate Intro Date",
+    "ModuleId": "273029c8-d2db-4c26-91c2-c6ade5ef2bd4"
+  },
+  {
+    "Id": 51150,
+    "TenantId": 7496,
+    "MeasureId": 29069056,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[COV Threshold] >=0 ) &&  (Measure.[COV Threshold]<=1)) then 1\nelse 0",
+    "ToolTip": "This is not valid. Please check !",
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  },
+  {
+    "Id": 51151,
+    "TenantId": 7496,
+    "MeasureId": 29069057,
+    "MeasureGuid": "00000000-0000-0000-0000-000000000000",
+    "PropertyType": "Validation_Status",
+    "PropertyFormula": "if ((Measure.[Volume Threshold] >=0 ) &&  (Measure.[Volume Threshold]<=1)) then 1\nelse 0",
+    "ToolTip": "This is not valid. Please check !",
+    "ModuleId": "52370024-0307-4d32-9948-435d1a6d8e73"
+  }
+]
