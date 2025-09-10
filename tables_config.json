@@ -29,6 +29,10 @@
     },
     "action_buttons.json": [
       {
+        "table": "action_buttons",
+        "fields": ["ModuleId", "Id", "Name", "Description", "Tooltip", "ActionButtonType", "IsGlobal"]
+      },
+      {
         "table": "action_buttons_ibpl_rules",
         "fields": ["ModuleId", "Id", "ActionButtonId", "Name", "Description", "Tooltip", "ActionButtonType", "IsGlobal" ],
         "children": {
@@ -76,6 +80,10 @@
         }
       }
     ],
+    "action_button_measure_usages.json": {
+      "table": "action_button_measure_usages",
+      "fields": ["ModuleId", "ActionButtonId", "MeasureId", "IsInput", "IsOutput"]
+    },
     "rule_groups.json": [
       {
         "filters": {"RuleGroupType": ["Regular", "Spreading", "Block", "Cartesian", "EvaluateMember", "Graph", "Recurrence"]},
@@ -125,6 +133,123 @@
     "rule_group_labels.json": {
       "table": "rule_groups_labels",
       "fields": ["ModuleId", "Id", "LabelName", "LabelDescription", "LabelType"]
-    }
+    },
+    "measures.json": {
+      "table": "measures",
+      "fields": ["ModuleId", "Id", "MeasureGroupId", "MeasureName", "MeasureDescription", "DataType", "MeasureType", "AggregateFunction", "FormatString", "MeasureColumnName", "ApplyConversion", "ConversionFormula", "PikcListId"]
+    },
+    "configured_global_plugins.json": [
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.Python.PythonScript"]},
+        "table": "python_plugin_script",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson": {
+            "table": "python_plugin_script",
+            "fields": ["ScriptCode"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.Python.PythonScript"]},
+        "table": "python_plugin_input_tables",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson.InputTables": {
+            "table": "python_plugin_input_tables",
+            "fields": ["VariableName", "Query", "Primary", "OverrideSlicingMeasure", "VariableType"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.Python.PythonScript"]},
+        "table": "python_plugin_output_tables",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson.OutputTables": {
+            "table": "python_plugin_output_tables",
+            "fields": ["VariableName", "VariableType"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.Python.PySparkScript"]},
+        "table": "pyspark_plugin_script",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson": {
+            "table": "pyspark_plugin_script",
+            "fields": ["ScriptCode"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.Python.PySparkScript"]},
+        "table": "pyspark_plugin_input_tables",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson.InputTables": {
+            "table": "pyspark_plugin_input_tables",
+            "fields": ["VariableName", "Query", "Primary", "VariableType"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.Python.PySparkScript"]},
+        "table": "pyspark_plugin_output_tables",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson.OutputTables": {
+            "table": "pyspark_plugin_output_tables",
+            "fields": ["VariableName", "VariableType"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.RScript.Generalized.RScriptGeneralized"]},
+        "table": "r_plugin_script",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson": {
+            "table": "r_plugin_script",
+            "fields": ["ScriptCode"]
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.RScript.Generalized.RScriptGeneralized"]},
+        "table": "r_plugin_input_tables",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson.InputMeasures": {
+            "table": "r_plugin_input_tables",
+            "fields": ["VariableName"],
+            "children": {
+              "Measures": {
+                "table": "r_plugin_input_tables",
+                "fields": ["MeasureName"]
+              }
+            }
+          }
+        }
+      },
+      {
+        "filters": {"ClassName": ["o9.GraphCube.Plugins.RScript.Generalized.RScriptGeneralized"]},
+        "table": "r_plugin_output_tables",
+        "fields": ["Id", "GlobalPluginId", "InstanceName", "Description", "InvocationType"],
+        "children": {
+          "ConfigJson.OutputMeasures": {
+            "table": "r_plugin_output_tables",
+            "fields": ["VariableName"],
+            "children": {
+              "Measures": {
+                "table": "r_plugin_output_tables",
+                "fields": ["MeasureName"]
+              }
+            }
+          }
+        }
+      }
+    ]
   }
 }
