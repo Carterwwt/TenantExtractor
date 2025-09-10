@@ -127,7 +127,7 @@ def main():
                         print(f"Skipping {json_filename} - no configuration found")
                         continue
 
-                    print(f"Processing {json_filename}...")
+                    print(f"==== Processing {json_filename}...")
 
                     # Load JSON data
                     with open(json_path, "r", encoding="utf-8") as f:
@@ -138,6 +138,7 @@ def main():
                     print(f"Completed processing: {json_filename}")
 
                 # To transform module id to module name for all tables
+                print("==== Transforming module id to module name...")
                 processor.transform_module_id()
 
                 # Commit changes
@@ -151,8 +152,21 @@ def main():
                 root.lift()
                 root.focus_force()
                 root.withdraw()
-                messagebox.showinfo("Processing Complete", 
-                                  f"Successfully processed {len(json_files)} files\nDatabase saved to: {db_path}")
+
+                # Query for number of user-created tables
+                cursor = conn.cursor()
+                cursor.execute("""
+                               SELECT COUNT(*)
+                               FROM sqlite_master
+                               WHERE type = 'table'
+                                 AND name NOT LIKE 'sqlite_%';
+                               """)
+
+                num_tables = cursor.fetchone()[0]
+
+                messagebox.showinfo("Processing Complete",
+                                    f"Successfully processed {len(json_files)} files\nCreated {num_tables} tables\nDatabase saved to: {db_path}")
+
                 root.destroy()
 
             except Exception as e:

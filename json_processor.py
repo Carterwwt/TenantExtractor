@@ -63,7 +63,7 @@ class SimpleJsonProcessor:
 
         sql = f"CREATE TABLE IF NOT EXISTS {table_name} ({', '.join(columns)})"
         self.cursor.execute(sql)
-        print(f"Created table: {table_name} with fields: [{', '.join(columns)}]")
+        print(f"  == Created table: {table_name} with fields: [{', '.join(columns)}]")
         
     def _alter_table(self, table_name: str, fields: List[str]):
         """Add new fields to existing table."""
@@ -76,7 +76,7 @@ class SimpleJsonProcessor:
             if field not in existing_columns:
                 sql = f"ALTER TABLE {table_name} ADD COLUMN {field} TEXT"
                 self.cursor.execute(sql)
-                print(f"Added column {field} to table {table_name}")
+                print(f"    == Added column {field} to table {table_name}")
 
     def _insert_data(self, table_name: str, fields: List[str], data: Dict[str, Any], parent_id: str = None):
         """Insert data into table."""
@@ -107,7 +107,7 @@ class SimpleJsonProcessor:
             SELECT ModuleId, ModuleName 
             FROM modules
         """)
-        print(f"Created temporary lookup table: {temp_table}")
+        print(f"  == Created temporary lookup table: {temp_table}")
 
         # Step 2: Get all table names except modules
         self.cursor.execute("""
@@ -119,7 +119,7 @@ class SimpleJsonProcessor:
         """)
 
         tables_to_transform = [row[0] for row in self.cursor.fetchall()]
-        print(f"Tables to transform: {tables_to_transform}")
+        print(f"  == Tables to transform: {tables_to_transform}")
 
         # Step 3: Transform each table
         for table_name in tables_to_transform:
@@ -127,7 +127,7 @@ class SimpleJsonProcessor:
 
         # Step 4: Drop temporary table
         self.cursor.execute(f"DROP TABLE {temp_table}")
-        print("Dropped temporary lookup table")
+        print("  == Dropped temporary lookup table")
         self.conn.commit()
         
         
@@ -142,7 +142,7 @@ class SimpleJsonProcessor:
         # Check if table has ModuleId column
         has_module_id = any(col[1] == 'ModuleId' for col in columns_info)
         if not has_module_id:
-            print(f"Table {table_name} does not have ModuleId column, skipping")
+            print(f"  == Table {table_name} does not have ModuleId column, skipping")
             return
 
         # Get all column names except ModuleId
@@ -178,7 +178,7 @@ class SimpleJsonProcessor:
         self.cursor.execute(f"DROP TABLE {table_name}")
         self.cursor.execute(f"ALTER TABLE {new_table_name} RENAME TO {table_name}")
 
-        print(f"Transformed table {table_name}: replaced ModuleId with ModuleName as first column")
+        print(f"    == Transformed table {table_name}: replaced ModuleId with ModuleName as first column")
 
     def process_data(self, config: Union[Dict[str, Any], List[Dict[str, Any]]], json_data: Union[Dict, List]):
         """Process JSON data according to configuration(s)."""

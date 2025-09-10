@@ -78,7 +78,7 @@
     ],
     "rule_groups.json": [
       {
-        "filters": {"RuleGroupType": ["Regular", "Spreading"]},
+        "filters": {"RuleGroupType": ["Regular", "Spreading", "Block", "Cartesian", "EvaluateMember", "Graph", "Recurrence"]},
         "table": "active_rules",
         "fields": ["ModuleId", "RuleGroupLabelId", "ScopeLabelId","IsEnabled", "RuleGroupType"],
         "children": {
@@ -98,7 +98,33 @@
             "fields": ["RuleGroupText"]
           }
         }
+      },
+      {
+        "filters": {"RuleGroupType": "NamedNodeFilterSet"},
+        "table": "named_node",
+        "fields": ["ModuleId", "RuleGroupType", "RuleGroupDescription", "RuleGroupLabelId","IsEnabled"],
+        "children": {
+          "RuleGroupContent": {
+            "table": "named_node",
+            "fields": ["NamedNodeName", "RuleGroupText"]
+          }
+        }
+      },
+      {
+        "filters": {"RuleGroupType": "NamedSet"},
+        "table": "named_set",
+        "fields": ["ModuleId", "RuleGroupType", "RuleGroupName","RuleGroupDescription", "RuleGroupLabelId","IsEnabled"],
+        "children": {
+          "RuleGroupContent": {
+            "table": "named_set",
+            "fields": ["RuleGroupText"]
+          }
+        }
       }
-    ]
+    ],
+    "rule_group_labels.json": {
+      "table": "rule_groups_labels",
+      "fields": ["ModuleId", "Id", "LabelName", "LabelDescription", "LabelType"]
+    }
   }
 }
