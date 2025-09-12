@@ -88,7 +88,7 @@
       {
         "filters": {"RuleGroupType": ["Regular", "Spreading", "Block", "Cartesian", "EvaluateMember", "Graph", "Recurrence"]},
         "table": "active_rules",
-        "fields": ["ModuleId", "RuleGroupLabelId", "ScopeLabelId","IsEnabled", "RuleGroupType"],
+        "fields": ["ModuleId", "Id","RuleGroupLabelId", "ScopeLabelId","IsEnabled", "RuleGroupType"],
         "children": {
           "RuleGroupContent": {
             "table": "active_rules",
@@ -99,7 +99,7 @@
       {
         "filters": {"RuleGroupType": "ParameterizedProcedure"},
         "table": "procedures",
-        "fields": ["ModuleId", "RuleGroupType", "RuleGroupName", "RuleGroupDescription", "RuleGroupLabelId","IsEnabled"],
+        "fields": ["ModuleId", "Id","RuleGroupType", "RuleGroupName", "RuleGroupDescription", "RuleGroupLabelId","IsEnabled"],
         "children": {
           "RuleGroupContent": {
             "table": "procedures",
@@ -137,6 +137,10 @@
     "measures.json": {
       "table": "measures",
       "fields": ["ModuleId", "Id", "MeasureGroupId", "MeasureName", "MeasureDescription", "DataType", "MeasureType", "AggregateFunction", "FormatString", "MeasureColumnName", "ApplyConversion", "ConversionFormula", "PikcListId"]
+    },
+    "measure_groups.json": {
+      "table": "measure_groups",
+      "fields": ["ModuleId", "Id", "PlanId", "MeasureGroupName", "MeasureGroupDescription", "MeasureGroupType", "FactTableName"]
     },
     "configured_global_plugins.json": [
       {
@@ -250,6 +254,26 @@
           }
         }
       }
-    ]
+    ],
+    "dimensions.json": {
+      "table": "dimensions",
+      "fields": ["ModuleId", "Id", "DimensionName", "DimensionTableName", "DimensionDescription", "DimensionType", "DimensionKeyColumnName"]
+    },
+    "dimension_attributes.json": {
+      "table": "dimension_attributes",
+      "fields": ["ModuleId", "Id", "DimensionId", "AttributeName", "OrderBy", "KeyColumnName", "NameColumnName", "KeyColumnDataType"]
+    },
+    "dimension_usages.json": {
+      "table": "dimension_usages",
+      "fields": ["ModuleId", "Id", "DimensionId", "DimensionName", "DimensionAttributeId", "AttributeName", "MeasureGroupId"]
+    },
+    "view_widget_definitions.json": {
+      "table": "view_widget_definitions",
+      "fields": ["ModuleId", "Id", "ViewId", "WidgetDefinitionId", "Name", "Title"]
+    },
+    "rule_group_measure_usages.json": {
+      "table": "rule_group_measure_usages",
+      "fields": ["ModuleId", "Id","RuleGroupId", "MeasureId", "IsInput", "IsOutput"]
+    }
   }
 }

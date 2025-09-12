@@ -142,7 +142,7 @@ class SimpleJsonProcessor:
         # Check if table has ModuleId column
         has_module_id = any(col[1] == 'ModuleId' for col in columns_info)
         if not has_module_id:
-            print(f"  == Table {table_name} does not have ModuleId column, skipping")
+            print(f"    == Table {table_name} does not have ModuleId column, skipping")
             return
 
         # Get all column names except ModuleId

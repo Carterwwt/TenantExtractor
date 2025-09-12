@@ -1,0 +1,71 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"47ec81b2-1383-4e97-8e4e-69b3723196b8\" name=\"Changes\" comment=\"Bug fixes.\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/d1da55c5-615a-40ad-ac32-f60132780416.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources/d1da55c5-615a-40ad-ac32-f60132780416.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/json_processor.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/json_processor.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tables_config.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tables_config.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test.db\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/test.db\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Carterwwt&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Carterwwt/TenantExtractor.git&quot;,\r\n    &quot;accountId&quot;: &quot;9ac3c121-0451-4106-a37c-e408051028e3&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"32PuOou6v0lV6a2PKQjoIAmtHct\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"Python.JsonToSql.executor\": \"Run\",\r\n    \"Python.main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Carte/PycharmProjects/TenantExtractor\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"ml.llm.AIAssistantPromptsLibrary\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Carte\\PycharmProjects\\TenantExtractor\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Carte\\PycharmProjects\\TenantExtractor\\configs\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PY-252.23892.515\" />\r\n        <option value=\"bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"47ec81b2-1383-4e97-8e4e-69b3723196b8\" name=\"Changes\" comment=\"\" />\r\n      <created>1757334498539</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1757334498539</updated>\r\n      <workItem from=\"1757334499602\" duration=\"12786000\" />\r\n      <workItem from=\"1757382020514\" duration=\"23889000\" />\r\n      <workItem from=\"1757509677544\" duration=\"12190000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initialized Project\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1757346824265</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1757346824266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Support nested field definition using &quot;.&quot;. Support one to many output. Support foreign tables or flatten fields\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1757409152509</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1757409152509</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Bug fixes.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1757519964799</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1757519964799</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initialized Project\" />\r\n    <MESSAGE value=\"Support nested field definition using &quot;.&quot;. Support one to many output. Support foreign tables or flatten fields\" />\r\n    <MESSAGE value=\"Bug fixes.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Bug fixes.\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/json_processor.py</url>\r\n          <line>234</line>\r\n          <option name=\"timeStamp\" value=\"5\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <watches-manager>\r\n      <configuration name=\"PythonConfigurationType\">\r\n        <watch expression=\"fields\" />\r\n        <watch expression=\"child_data\" />\r\n        <watch expression=\"child_data\" />\r\n        <watch expression=\"table_name\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/TenantExtractor$JsonToSql.coverage\" NAME=\"JsonToSql Coverage Results\" MODIFIED=\"1757340499442\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/TenantExtractor$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1757521797943\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"C:\\Users\\Carte\\PycharmProjects\\TenantExtractor\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9aae2277c8ab4e923ad57dd6e80ad13748e96129)
++++ b/.idea/workspace.xml	(date 1757544330776)
+@@ -4,14 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="47ec81b2-1383-4e97-8e4e-69b3723196b8" name="Changes" comment="Bug fixes.">
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1da55c5-615a-40ad-ac32-f60132780416.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1da55c5-615a-40ad-ac32-f60132780416.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/json_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_processor.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tables_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/tables_config.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.db" afterDir="false" />
+-    </list>
++    <list default="true" id="47ec81b2-1383-4e97-8e4e-69b3723196b8" name="Changes" comment="Added more supported tables" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -93,7 +86,7 @@
+       <updated>1757334498539</updated>
+       <workItem from="1757334499602" duration="12786000" />
+       <workItem from="1757382020514" duration="23889000" />
+-      <workItem from="1757509677544" duration="12190000" />
++      <workItem from="1757509677544" duration="12363000" />
+     </task>
+     <task id="LOCAL-00001" summary="Initialized Project">
+       <option name="closed" value="true" />
+@@ -119,7 +112,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1757519964799</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Added more supported tables">
++      <option name="closed" value="true" />
++      <created>1757522066079</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1757522066079</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -129,7 +130,8 @@
+     <MESSAGE value="Initialized Project" />
+     <MESSAGE value="Support nested field definition using &quot;.&quot;. Support one to many output. Support foreign tables or flatten fields" />
+     <MESSAGE value="Bug fixes." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes." />
++    <MESSAGE value="Added more supported tables" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added more supported tables" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -152,6 +154,6 @@
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/TenantExtractor$JsonToSql.coverage" NAME="JsonToSql Coverage Results" MODIFIED="1757340499442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/TenantExtractor$main.coverage" NAME="main Coverage Results" MODIFIED="1757521797943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Carte\PycharmProjects\TenantExtractor" />
++    <SUITE FILE_PATH="coverage/TenantExtractor$main.coverage" NAME="main Coverage Results" MODIFIED="1757521924764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Carte\PycharmProjects\TenantExtractor" />
+   </component>
+ </project>
+\ No newline at end of file
