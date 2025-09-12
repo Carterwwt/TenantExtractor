@@ -1,0 +1,14 @@
+{
+  "json_files": {
+    "ui_preferences.json": {
+      "table": "ui_preferences",
+      "fields": ["ModuleId", "Id", "PreferenceName", "PreferenceType"],
+      "children": {
+        "ConfigJson.ModelDefinition.LevelAttributes": {
+          "table": "ui_preferences",
+          "fields": ["AttributeName", "DimensionName"]
+        }
+      }
+    }
+  }
+}

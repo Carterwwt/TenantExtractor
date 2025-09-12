@@ -499,7 +499,7 @@
     </routine>
     <schema id="191" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2025-09-12.07:21:35</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-09-12.09:29:08</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="192" parent="16">
       <ArgumentDirection>R</ArgumentDirection>
@@ -1621,982 +1621,1106 @@
     <table id="583" parent="191" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="584" parent="191" name="view_widget_definitions"/>
-    <table id="585" parent="191" name="views"/>
-    <table id="586" parent="191" name="workspaces"/>
-    <column id="587" parent="555" name="ModuleName">
+    <table id="584" parent="191" name="ui_preferences"/>
+    <table id="585" parent="191" name="view_widget_definitions"/>
+    <table id="586" parent="191" name="views"/>
+    <table id="587" parent="191" name="widget_definitions"/>
+    <table id="588" parent="191" name="widget_model_axis"/>
+    <table id="589" parent="191" name="widget_model_filters"/>
+    <table id="590" parent="191" name="workspaces"/>
+    <column id="591" parent="555" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="588" parent="555" name="ActionButtonId">
+    <column id="592" parent="555" name="ActionButtonId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="589" parent="555" name="MeasureId">
+    <column id="593" parent="555" name="MeasureId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="590" parent="555" name="IsInput">
+    <column id="594" parent="555" name="IsInput">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="591" parent="555" name="IsOutput">
+    <column id="595" parent="555" name="IsOutput">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="592" parent="556" name="ModuleName">
+    <column id="596" parent="556" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="593" parent="556" name="Id">
+    <column id="597" parent="556" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="594" parent="556" name="Name">
+    <column id="598" parent="556" name="Name">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="595" parent="556" name="Description">
+    <column id="599" parent="556" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="596" parent="556" name="Tooltip">
+    <column id="600" parent="556" name="Tooltip">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="597" parent="556" name="ActionButtonType">
+    <column id="601" parent="556" name="ActionButtonType">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="598" parent="556" name="IsGlobal">
+    <column id="602" parent="556" name="IsGlobal">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="599" parent="557" name="ModuleName">
+    <column id="603" parent="557" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="600" parent="557" name="Id">
+    <column id="604" parent="557" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="601" parent="557" name="ActionButtonId">
+    <column id="605" parent="557" name="ActionButtonId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="602" parent="557" name="Name">
+    <column id="606" parent="557" name="Name">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="603" parent="557" name="Description">
+    <column id="607" parent="557" name="Description">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="604" parent="557" name="Tooltip">
+    <column id="608" parent="557" name="Tooltip">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="605" parent="557" name="ActionButtonType">
+    <column id="609" parent="557" name="ActionButtonType">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="606" parent="557" name="IsGlobal">
+    <column id="610" parent="557" name="IsGlobal">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="607" parent="557" name="ConfigJson_FieldBindings_fieldName">
+    <column id="611" parent="557" name="ConfigJson_FieldBindings_fieldName">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="608" parent="557" name="ConfigJson_FieldBindings_title">
+    <column id="612" parent="557" name="ConfigJson_FieldBindings_title">
       <Position>10</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="609" parent="557" name="ConfigJson_FieldBindings_type">
+    <column id="613" parent="557" name="ConfigJson_FieldBindings_type">
       <Position>11</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="610" parent="557" name="ConfigJson_FieldBindings_selectionType">
+    <column id="614" parent="557" name="ConfigJson_FieldBindings_selectionType">
       <Position>12</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="611" parent="557" name="ConfigJson_FieldBindings_clearSearch">
+    <column id="615" parent="557" name="ConfigJson_FieldBindings_clearSearch">
       <Position>13</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="612" parent="557" name="ConfigJson_FieldBindings_source">
+    <column id="616" parent="557" name="ConfigJson_FieldBindings_source">
       <Position>14</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="613" parent="557" name="ConfigJson_FieldBindings_defaultValue">
+    <column id="617" parent="557" name="ConfigJson_FieldBindings_defaultValue">
       <Position>15</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="614" parent="557" name="ConfigJson_FieldBindings_visible">
+    <column id="618" parent="557" name="ConfigJson_FieldBindings_visible">
       <Position>16</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="615" parent="557" name="ConfigJson_FieldBindings_isEditable">
+    <column id="619" parent="557" name="ConfigJson_FieldBindings_isEditable">
       <Position>17</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="616" parent="557" name="ConfigJson_FieldBindings_validation_maxLength">
+    <column id="620" parent="557" name="ConfigJson_FieldBindings_validation_maxLength">
       <Position>18</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="617" parent="557" name="ConfigJson_FieldBindings_validation_required">
+    <column id="621" parent="557" name="ConfigJson_FieldBindings_validation_required">
       <Position>19</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="618" parent="558" name="ModuleName">
+    <column id="622" parent="558" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="619" parent="558" name="Id">
+    <column id="623" parent="558" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="620" parent="558" name="ActionButtonId">
+    <column id="624" parent="558" name="ActionButtonId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="621" parent="558" name="Name">
+    <column id="625" parent="558" name="Name">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="622" parent="558" name="Description">
+    <column id="626" parent="558" name="Description">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="623" parent="558" name="Tooltip">
+    <column id="627" parent="558" name="Tooltip">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="624" parent="558" name="ActionButtonType">
+    <column id="628" parent="558" name="ActionButtonType">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="625" parent="558" name="IsGlobal">
+    <column id="629" parent="558" name="IsGlobal">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="626" parent="558" name="ConfigJson_IBPLRules_template">
+    <column id="630" parent="558" name="ConfigJson_IBPLRules_template">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="627" parent="558" name="ConfigJson_IBPLRules_output_name">
+    <column id="631" parent="558" name="ConfigJson_IBPLRules_output_name">
       <Position>10</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="628" parent="558" name="ConfigJson_IBPLRules_output_type">
+    <column id="632" parent="558" name="ConfigJson_IBPLRules_output_type">
       <Position>11</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="629" parent="558" name="ConfigJson_IBPLRules_input_name">
+    <column id="633" parent="558" name="ConfigJson_IBPLRules_input_name">
       <Position>12</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="630" parent="558" name="ConfigJson_IBPLRules_input_type">
+    <column id="634" parent="558" name="ConfigJson_IBPLRules_input_type">
       <Position>13</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="631" parent="559" name="ModuleName">
+    <column id="635" parent="559" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="632" parent="559" name="Id">
+    <column id="636" parent="559" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="633" parent="559" name="ActionButtonId">
+    <column id="637" parent="559" name="ActionButtonId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="634" parent="559" name="Name">
+    <column id="638" parent="559" name="Name">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="635" parent="559" name="Description">
+    <column id="639" parent="559" name="Description">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="636" parent="559" name="Tooltip">
+    <column id="640" parent="559" name="Tooltip">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="637" parent="559" name="ActionButtonType">
+    <column id="641" parent="559" name="ActionButtonType">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="638" parent="559" name="IsGlobal">
+    <column id="642" parent="559" name="IsGlobal">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="639" parent="559" name="ConfigJson_JavascriptRules_modulename">
+    <column id="643" parent="559" name="ConfigJson_JavascriptRules_modulename">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="640" parent="559" name="ConfigJson_JavascriptRules_functionname">
+    <column id="644" parent="559" name="ConfigJson_JavascriptRules_functionname">
       <Position>10</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="641" parent="560" name="ModuleName">
+    <column id="645" parent="560" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="642" parent="560" name="Id">
+    <column id="646" parent="560" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="643" parent="560" name="RuleGroupLabelId">
+    <column id="647" parent="560" name="RuleGroupLabelId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="644" parent="560" name="ScopeLabelId">
+    <column id="648" parent="560" name="ScopeLabelId">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="645" parent="560" name="IsEnabled">
+    <column id="649" parent="560" name="IsEnabled">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="646" parent="560" name="RuleGroupType">
+    <column id="650" parent="560" name="RuleGroupType">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="647" parent="560" name="RuleGroupContent_RuleGroupText">
+    <column id="651" parent="560" name="RuleGroupContent_RuleGroupText">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="648" parent="561" name="ModuleName">
+    <column id="652" parent="561" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="649" parent="561" name="Id">
+    <column id="653" parent="561" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="650" parent="561" name="DimensionId">
+    <column id="654" parent="561" name="DimensionId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="651" parent="561" name="AttributeName">
+    <column id="655" parent="561" name="AttributeName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="652" parent="561" name="OrderBy">
+    <column id="656" parent="561" name="OrderBy">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="653" parent="561" name="KeyColumnName">
+    <column id="657" parent="561" name="KeyColumnName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="654" parent="561" name="NameColumnName">
+    <column id="658" parent="561" name="NameColumnName">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="655" parent="561" name="KeyColumnDataType">
+    <column id="659" parent="561" name="KeyColumnDataType">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="656" parent="562" name="ModuleName">
+    <column id="660" parent="562" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="657" parent="562" name="Id">
+    <column id="661" parent="562" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="658" parent="562" name="DimensionId">
+    <column id="662" parent="562" name="DimensionId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="659" parent="562" name="DimensionName">
+    <column id="663" parent="562" name="DimensionName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="660" parent="562" name="DimensionAttributeId">
+    <column id="664" parent="562" name="DimensionAttributeId">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="661" parent="562" name="AttributeName">
+    <column id="665" parent="562" name="AttributeName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="662" parent="562" name="MeasureGroupId">
+    <column id="666" parent="562" name="MeasureGroupId">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="663" parent="563" name="ModuleName">
+    <column id="667" parent="563" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="664" parent="563" name="Id">
+    <column id="668" parent="563" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="665" parent="563" name="DimensionName">
+    <column id="669" parent="563" name="DimensionName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="666" parent="563" name="DimensionTableName">
+    <column id="670" parent="563" name="DimensionTableName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="667" parent="563" name="DimensionDescription">
+    <column id="671" parent="563" name="DimensionDescription">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="668" parent="563" name="DimensionType">
+    <column id="672" parent="563" name="DimensionType">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="669" parent="563" name="DimensionKeyColumnName">
+    <column id="673" parent="563" name="DimensionKeyColumnName">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="670" parent="564" name="ModuleName">
+    <column id="674" parent="564" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="671" parent="564" name="Id">
+    <column id="675" parent="564" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="672" parent="564" name="PlanId">
+    <column id="676" parent="564" name="PlanId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="673" parent="564" name="MeasureGroupName">
+    <column id="677" parent="564" name="MeasureGroupName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="674" parent="564" name="MeasureGroupDescription">
+    <column id="678" parent="564" name="MeasureGroupDescription">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="675" parent="564" name="MeasureGroupType">
+    <column id="679" parent="564" name="MeasureGroupType">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="676" parent="564" name="FactTableName">
+    <column id="680" parent="564" name="FactTableName">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="677" parent="565" name="ModuleName">
+    <column id="681" parent="565" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="678" parent="565" name="Id">
+    <column id="682" parent="565" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="679" parent="565" name="MeasureGroupId">
+    <column id="683" parent="565" name="MeasureGroupId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="680" parent="565" name="MeasureName">
+    <column id="684" parent="565" name="MeasureName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="681" parent="565" name="MeasureDescription">
+    <column id="685" parent="565" name="MeasureDescription">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="682" parent="565" name="DataType">
+    <column id="686" parent="565" name="DataType">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="683" parent="565" name="MeasureType">
+    <column id="687" parent="565" name="MeasureType">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="684" parent="565" name="AggregateFunction">
+    <column id="688" parent="565" name="AggregateFunction">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="685" parent="565" name="FormatString">
+    <column id="689" parent="565" name="FormatString">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="686" parent="565" name="MeasureColumnName">
+    <column id="690" parent="565" name="MeasureColumnName">
       <Position>10</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="687" parent="565" name="ApplyConversion">
+    <column id="691" parent="565" name="ApplyConversion">
       <Position>11</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="688" parent="565" name="ConversionFormula">
+    <column id="692" parent="565" name="ConversionFormula">
       <Position>12</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="689" parent="565" name="PikcListId">
+    <column id="693" parent="565" name="PikcListId">
       <Position>13</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="690" parent="566" name="TenantId">
+    <column id="694" parent="566" name="TenantId">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="691" parent="566" name="Org">
+    <column id="695" parent="566" name="Org">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="692" parent="566" name="ProjectId">
+    <column id="696" parent="566" name="ProjectId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="693" parent="566" name="ProjectName">
+    <column id="697" parent="566" name="ProjectName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="694" parent="566" name="ModuleId">
+    <column id="698" parent="566" name="ModuleId">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="695" parent="566" name="ModuleName">
+    <column id="699" parent="566" name="ModuleName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="696" parent="566" name="ModuleUrl">
+    <column id="700" parent="566" name="ModuleUrl">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="697" parent="566" name="IsReadOnlyModule">
+    <column id="701" parent="566" name="IsReadOnlyModule">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="698" parent="566" name="VersionType">
+    <column id="702" parent="566" name="VersionType">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="699" parent="566" name="Version">
+    <column id="703" parent="566" name="Version">
       <Position>10</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="700" parent="566" name="ParentModuleId">
+    <column id="704" parent="566" name="ParentModuleId">
       <Position>11</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="701" parent="566" name="Type">
+    <column id="705" parent="566" name="Type">
       <Position>12</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="702" parent="567" name="ModuleName">
+    <column id="706" parent="567" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="703" parent="567" name="RuleGroupType">
+    <column id="707" parent="567" name="RuleGroupType">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="704" parent="567" name="RuleGroupDescription">
+    <column id="708" parent="567" name="RuleGroupDescription">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="705" parent="567" name="RuleGroupLabelId">
+    <column id="709" parent="567" name="RuleGroupLabelId">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="706" parent="567" name="IsEnabled">
+    <column id="710" parent="567" name="IsEnabled">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="707" parent="567" name="RuleGroupContent_NamedNodeName">
+    <column id="711" parent="567" name="RuleGroupContent_NamedNodeName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="708" parent="567" name="RuleGroupContent_RuleGroupText">
+    <column id="712" parent="567" name="RuleGroupContent_RuleGroupText">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="709" parent="568" name="ModuleName">
+    <column id="713" parent="568" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="710" parent="568" name="RuleGroupType">
+    <column id="714" parent="568" name="RuleGroupType">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="711" parent="568" name="RuleGroupName">
+    <column id="715" parent="568" name="RuleGroupName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="712" parent="568" name="RuleGroupDescription">
+    <column id="716" parent="568" name="RuleGroupDescription">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="713" parent="568" name="RuleGroupLabelId">
+    <column id="717" parent="568" name="RuleGroupLabelId">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="714" parent="568" name="IsEnabled">
+    <column id="718" parent="568" name="IsEnabled">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="715" parent="568" name="RuleGroupContent_RuleGroupText">
+    <column id="719" parent="568" name="RuleGroupContent_RuleGroupText">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="716" parent="569" name="ModuleName">
+    <column id="720" parent="569" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="717" parent="569" name="Id">
+    <column id="721" parent="569" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="718" parent="569" name="Title">
+    <column id="722" parent="569" name="Title">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="719" parent="569" name="Name">
+    <column id="723" parent="569" name="Name">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="720" parent="569" name="WorkspaceId">
+    <column id="724" parent="569" name="WorkspaceId">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="721" parent="570" name="ModuleName">
+    <column id="725" parent="570" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="722" parent="570" name="Id">
+    <column id="726" parent="570" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="723" parent="570" name="Title">
+    <column id="727" parent="570" name="Title">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="724" parent="570" name="Name">
+    <column id="728" parent="570" name="Name">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="725" parent="570" name="PageGroupId">
+    <column id="729" parent="570" name="PageGroupId">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="726" parent="571" name="ModuleName">
+    <column id="730" parent="571" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="727" parent="571" name="Id">
+    <column id="731" parent="571" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="728" parent="571" name="RuleGroupType">
+    <column id="732" parent="571" name="RuleGroupType">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="729" parent="571" name="RuleGroupName">
+    <column id="733" parent="571" name="RuleGroupName">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="730" parent="571" name="RuleGroupDescription">
+    <column id="734" parent="571" name="RuleGroupDescription">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="731" parent="571" name="RuleGroupLabelId">
+    <column id="735" parent="571" name="RuleGroupLabelId">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="732" parent="571" name="IsEnabled">
+    <column id="736" parent="571" name="IsEnabled">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="733" parent="571" name="RuleGroupContent_RuleGroupText">
+    <column id="737" parent="571" name="RuleGroupContent_RuleGroupText">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="734" parent="572" name="Id">
+    <column id="738" parent="572" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="735" parent="572" name="GlobalPluginId">
+    <column id="739" parent="572" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="736" parent="572" name="InstanceName">
+    <column id="740" parent="572" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="737" parent="572" name="Description">
+    <column id="741" parent="572" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="738" parent="572" name="InvocationType">
+    <column id="742" parent="572" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="739" parent="572" name="ConfigJson_InputTables_VariableName">
+    <column id="743" parent="572" name="ConfigJson_InputTables_VariableName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="740" parent="572" name="ConfigJson_InputTables_Query">
+    <column id="744" parent="572" name="ConfigJson_InputTables_Query">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="741" parent="572" name="ConfigJson_InputTables_Primary">
+    <column id="745" parent="572" name="ConfigJson_InputTables_Primary">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="742" parent="572" name="ConfigJson_InputTables_VariableType">
+    <column id="746" parent="572" name="ConfigJson_InputTables_VariableType">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="743" parent="573" name="Id">
+    <column id="747" parent="573" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="744" parent="573" name="GlobalPluginId">
+    <column id="748" parent="573" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="745" parent="573" name="InstanceName">
+    <column id="749" parent="573" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="746" parent="573" name="Description">
+    <column id="750" parent="573" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="747" parent="573" name="InvocationType">
+    <column id="751" parent="573" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="748" parent="573" name="ConfigJson_OutputTables_VariableName">
+    <column id="752" parent="573" name="ConfigJson_OutputTables_VariableName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="749" parent="573" name="ConfigJson_OutputTables_VariableType">
+    <column id="753" parent="573" name="ConfigJson_OutputTables_VariableType">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="750" parent="574" name="Id">
+    <column id="754" parent="574" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="751" parent="574" name="GlobalPluginId">
+    <column id="755" parent="574" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="752" parent="574" name="InstanceName">
+    <column id="756" parent="574" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="753" parent="574" name="Description">
+    <column id="757" parent="574" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="754" parent="574" name="InvocationType">
+    <column id="758" parent="574" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="755" parent="574" name="ConfigJson_ScriptCode">
+    <column id="759" parent="574" name="ConfigJson_ScriptCode">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="756" parent="575" name="Id">
+    <column id="760" parent="575" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="757" parent="575" name="GlobalPluginId">
+    <column id="761" parent="575" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="758" parent="575" name="InstanceName">
+    <column id="762" parent="575" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="759" parent="575" name="Description">
+    <column id="763" parent="575" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="760" parent="575" name="InvocationType">
+    <column id="764" parent="575" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="761" parent="575" name="ConfigJson_InputTables_VariableName">
+    <column id="765" parent="575" name="ConfigJson_InputTables_VariableName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="762" parent="575" name="ConfigJson_InputTables_Query">
+    <column id="766" parent="575" name="ConfigJson_InputTables_Query">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="763" parent="575" name="ConfigJson_InputTables_Primary">
+    <column id="767" parent="575" name="ConfigJson_InputTables_Primary">
       <Position>8</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="764" parent="575" name="ConfigJson_InputTables_OverrideSlicingMeasure">
+    <column id="768" parent="575" name="ConfigJson_InputTables_OverrideSlicingMeasure">
       <Position>9</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="765" parent="575" name="ConfigJson_InputTables_VariableType">
+    <column id="769" parent="575" name="ConfigJson_InputTables_VariableType">
       <Position>10</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="766" parent="576" name="Id">
+    <column id="770" parent="576" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="767" parent="576" name="GlobalPluginId">
+    <column id="771" parent="576" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="768" parent="576" name="InstanceName">
+    <column id="772" parent="576" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="769" parent="576" name="Description">
+    <column id="773" parent="576" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="770" parent="576" name="InvocationType">
+    <column id="774" parent="576" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="771" parent="576" name="ConfigJson_OutputTables_VariableName">
+    <column id="775" parent="576" name="ConfigJson_OutputTables_VariableName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="772" parent="576" name="ConfigJson_OutputTables_VariableType">
+    <column id="776" parent="576" name="ConfigJson_OutputTables_VariableType">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="773" parent="577" name="Id">
+    <column id="777" parent="577" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="774" parent="577" name="GlobalPluginId">
+    <column id="778" parent="577" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="775" parent="577" name="InstanceName">
+    <column id="779" parent="577" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="776" parent="577" name="Description">
+    <column id="780" parent="577" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="777" parent="577" name="InvocationType">
+    <column id="781" parent="577" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="778" parent="577" name="ConfigJson_ScriptCode">
+    <column id="782" parent="577" name="ConfigJson_ScriptCode">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="779" parent="578" name="Id">
+    <column id="783" parent="578" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="780" parent="578" name="GlobalPluginId">
+    <column id="784" parent="578" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="781" parent="578" name="InstanceName">
+    <column id="785" parent="578" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="782" parent="578" name="Description">
+    <column id="786" parent="578" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="783" parent="578" name="InvocationType">
+    <column id="787" parent="578" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="784" parent="578" name="ConfigJson_InputMeasures_VariableName">
+    <column id="788" parent="578" name="ConfigJson_InputMeasures_VariableName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="785" parent="578" name="ConfigJson_InputMeasures_Measures_MeasureName">
+    <column id="789" parent="578" name="ConfigJson_InputMeasures_Measures_MeasureName">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="786" parent="579" name="Id">
+    <column id="790" parent="579" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="787" parent="579" name="GlobalPluginId">
+    <column id="791" parent="579" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="788" parent="579" name="InstanceName">
+    <column id="792" parent="579" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="789" parent="579" name="Description">
+    <column id="793" parent="579" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="790" parent="579" name="InvocationType">
+    <column id="794" parent="579" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="791" parent="579" name="ConfigJson_OutputMeasures_VariableName">
+    <column id="795" parent="579" name="ConfigJson_OutputMeasures_VariableName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="792" parent="579" name="ConfigJson_OutputMeasures_Measures_MeasureName">
+    <column id="796" parent="579" name="ConfigJson_OutputMeasures_Measures_MeasureName">
       <Position>7</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="793" parent="580" name="Id">
+    <column id="797" parent="580" name="Id">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="794" parent="580" name="GlobalPluginId">
+    <column id="798" parent="580" name="GlobalPluginId">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="795" parent="580" name="InstanceName">
+    <column id="799" parent="580" name="InstanceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="796" parent="580" name="Description">
+    <column id="800" parent="580" name="Description">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="797" parent="580" name="InvocationType">
+    <column id="801" parent="580" name="InvocationType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="798" parent="580" name="ConfigJson_ScriptCode">
+    <column id="802" parent="580" name="ConfigJson_ScriptCode">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="799" parent="581" name="ModuleName">
+    <column id="803" parent="581" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="800" parent="581" name="Id">
+    <column id="804" parent="581" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="801" parent="581" name="RuleGroupId">
+    <column id="805" parent="581" name="RuleGroupId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="802" parent="581" name="MeasureId">
+    <column id="806" parent="581" name="MeasureId">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="803" parent="581" name="IsInput">
+    <column id="807" parent="581" name="IsInput">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="804" parent="581" name="IsOutput">
+    <column id="808" parent="581" name="IsOutput">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="805" parent="582" name="ModuleName">
+    <column id="809" parent="582" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="806" parent="582" name="Id">
+    <column id="810" parent="582" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="807" parent="582" name="LabelName">
+    <column id="811" parent="582" name="LabelName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="808" parent="582" name="LabelDescription">
+    <column id="812" parent="582" name="LabelDescription">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="809" parent="582" name="LabelType">
+    <column id="813" parent="582" name="LabelType">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="810" parent="583" name="type">
+    <column id="814" parent="583" name="type">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="811" parent="583" name="name">
+    <column id="815" parent="583" name="name">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="812" parent="583" name="tbl_name">
+    <column id="816" parent="583" name="tbl_name">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="813" parent="583" name="rootpage">
+    <column id="817" parent="583" name="rootpage">
       <Position>4</Position>
       <StoredType>INT|0s</StoredType>
     </column>
-    <column id="814" parent="583" name="sql">
+    <column id="818" parent="583" name="sql">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="815" parent="584" name="ModuleName">
+    <column id="819" parent="584" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="816" parent="584" name="Id">
+    <column id="820" parent="584" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="817" parent="584" name="ViewId">
+    <column id="821" parent="584" name="PreferenceName">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="818" parent="584" name="WidgetDefinitionId">
+    <column id="822" parent="584" name="PreferenceType">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="819" parent="584" name="Name">
+    <column id="823" parent="584" name="ConfigJson_ModelDefinition_LevelAttributes_AttributeName">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="820" parent="584" name="Title">
+    <column id="824" parent="584" name="ConfigJson_ModelDefinition_LevelAttributes_DimensionName">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="821" parent="585" name="ModuleName">
+    <column id="825" parent="585" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="822" parent="585" name="Id">
+    <column id="826" parent="585" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="823" parent="585" name="WorkspaceId">
+    <column id="827" parent="585" name="ViewId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="824" parent="585" name="PageId">
+    <column id="828" parent="585" name="WidgetDefinitionId">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="825" parent="585" name="Title">
+    <column id="829" parent="585" name="Name">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="826" parent="585" name="Name">
+    <column id="830" parent="585" name="Title">
       <Position>6</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="827" parent="586" name="ModuleName">
+    <column id="831" parent="586" name="ModuleName">
       <Position>1</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="828" parent="586" name="Id">
+    <column id="832" parent="586" name="Id">
       <Position>2</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="829" parent="586" name="Title">
+    <column id="833" parent="586" name="WorkspaceId">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="830" parent="586" name="Name">
+    <column id="834" parent="586" name="PageId">
+      <Position>4</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="835" parent="586" name="Title">
+      <Position>5</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="836" parent="586" name="Name">
+      <Position>6</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="837" parent="587" name="ModuleName">
+      <Position>1</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="838" parent="587" name="Id">
+      <Position>2</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="839" parent="587" name="WidgetModelId">
+      <Position>3</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="840" parent="587" name="Name">
+      <Position>4</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="841" parent="587" name="WidgetType">
+      <Position>5</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="842" parent="587" name="CreatedUserId">
+      <Position>6</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="843" parent="587" name="ModifiedUserId">
+      <Position>7</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="844" parent="588" name="ModuleName">
+      <Position>1</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="845" parent="588" name="Id">
+      <Position>2</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="846" parent="588" name="ConfigJson_LevelAttributes_AttributeName">
+      <Position>3</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="847" parent="588" name="ConfigJson_LevelAttributes_DimensionName">
+      <Position>4</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="848" parent="588" name="ConfigJson_LevelAttributes_EdgeDirection">
+      <Position>5</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="849" parent="588" name="ConfigJson_LevelAttributes_Axis">
+      <Position>6</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="850" parent="588" name="ConfigJson_LevelAttributes_AliasName">
+      <Position>7</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="851" parent="588" name="ConfigJson_RegularMeasures_Name">
+      <Position>8</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="852" parent="589" name="ModuleName">
+      <Position>1</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="853" parent="589" name="Id">
+      <Position>2</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="854" parent="589" name="ConfigJson_LevelAttributes_AttributeName">
+      <Position>3</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="855" parent="589" name="ConfigJson_LevelAttributes_Dimension">
+      <Position>4</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="856" parent="589" name="ConfigJson_LevelAttributes_DimensionId">
+      <Position>5</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="857" parent="589" name="ConfigJson_LevelAttributes_DimensionName">
+      <Position>6</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="858" parent="589" name="ConfigJson_LevelAttributes_AliasName">
+      <Position>7</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="859" parent="589" name="ConfigJson_LevelAttributes_MemberFilterExpression">
+      <Position>8</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="860" parent="589" name="ConfigJson_LevelAttributes_DefaultValueExpression">
+      <Position>9</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="861" parent="590" name="ModuleName">
+      <Position>1</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="862" parent="590" name="Id">
+      <Position>2</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="863" parent="590" name="Title">
+      <Position>3</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="864" parent="590" name="Name">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
