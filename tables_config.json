@@ -274,6 +274,49 @@
     "rule_group_measure_usages.json": {
       "table": "rule_group_measure_usages",
       "fields": ["ModuleId", "Id","RuleGroupId", "MeasureId", "IsInput", "IsOutput"]
+    },
+    "widget_definitions.json": {
+      "table": "widget_definitions",
+      "fields": ["ModuleId", "Id", "WidgetModelId", "Name", "WidgetType", "CreatedUserId", "ModifiedUserId"]
+    },
+    "widget_models.json": [
+      {
+        "table": "widget_model_filters",
+        "fields": ["ModuleId", "Id"],
+        "children": {
+          "ConfigJson.LevelAttributes": {
+            "filters": {"IsFilter": "true"},
+            "table": "widget_model_filters",
+            "fields": ["AttributeName", "Dimension", "DimensionId", "DimensionName", "AliasName", "MemberFilterExpression", "DefaultValueExpression"]
+          }
+        }
+      },
+      {
+        "table": "widget_model_axis",
+        "fields": ["ModuleId", "Id"],
+        "children": {
+          "ConfigJson.LevelAttributes": {
+            "filters": {"IsFilter": "false"},
+            "table": "widget_model_axis",
+            "fields": ["AttributeName", "DimensionName", "EdgeDirection", "Axis", "AliasName"]
+          },
+          "ConfigJson.RegularMeasures": {
+            "filters": {"IsFilter": "false"},
+            "table": "widget_model_axis",
+            "fields": ["Name"]
+          }
+        }
+      }
+    ],
+    "ui_preferences.json": {
+      "table": "ui_preferences",
+      "fields": ["ModuleId", "Id", "PreferenceName", "PreferenceType"],
+      "children": {
+        "ConfigJson.ModelDefinition.LevelAttributes": {
+          "table": "ui_preferences",
+          "fields": ["AttributeName", "DimensionName"]
+        }
+      }
     }
   }
 }
