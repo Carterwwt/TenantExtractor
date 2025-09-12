@@ -1,2 +1,5 @@
 .idea/
 *.db
+.venv/
+__pycache__/
+*.json.zip
