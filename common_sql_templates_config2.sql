@@ -1,4 +1,17 @@
--- Search Measure Usage in ActivRule
+-- Search Namednode
+SELECT RuleGroupContent_NamedNodeName AS named_node_name,
+       RuleGroupContent_RuleGroupText AS rule_group_text
+FROM named_node nn
+WHERE nn.RuleGroupContent_NamedNodeName = 'Retail_MFP_BU_Attribute_NN';
+
+-- Search Namedset
+SELECT named_set.RuleGroupName as named_set_name,
+       named_set.RuleGroupContent_RuleGroupText as named_set_text
+from named_set
+WHERE named_set.RuleGroupName = 'PAG' or named_set.RuleGroupName = 'RE2ECountries';
+
+
+-- Search Measure Usage in ActiveRule
 SELECT 
 	ar.ModuleName,
 	rgl.LabelName AS FolderName,
@@ -70,15 +83,64 @@ JOIN widget_model_axis wma
     ON wd.WidgetModelId = wma.Id
 WHERE wma.ConfigJson_RegularMeasures_Name IS NOT NULL;
 
+--Search Widget Definitions by Title
+SELECT
+    wd.ModuleName,
+    wd.Name,
+    vwd.Title,
+    wma.ConfigJson_LevelAttributes_DimensionName || '.[' ||
+    wma.ConfigJson_LevelAttributes_AttributeName || ']' AS `Dimension.AttributeName`,
+    up.ConfigJson_ModelDefinition_LevelAttributes_DimensionName || '.[' ||
+    up.ConfigJson_ModelDefinition_LevelAttributes_AttributeName || ']' AS `UPDimensionName.UPAttributeName`,
+    wma.ConfigJson_RegularMeasures_Name AS MeasureName
+FROM widget_definitions wd
+LEFT JOIN widget_model_axis wma
+    ON wd.WidgetModelId = wma.Id
+LEFT JOIN ui_preferences up
+    ON wma.ConfigJson_LevelAttributes_AttributeName = up.PreferenceName
+LEFT JOIN view_widget_definitions vwd
+    ON vwd.Name = wd.Name
+WHERE (vwd.Title = 'Currency Exchange Monthly' OR vwd.Name = '') AND (wma.ConfigJson_LevelAttributes_Axis <> 'none' OR wma.ConfigJson_RegularMeasures_Name IS NOT NULL)
+GROUP BY
+    wd.ModuleName,
+    wd.Name,
+    vwd.Title,
+    `Dimension.AttributeName`,
+    `UPDimensionName.UPAttributeName`,
+    MeasureName;
+
+--Search Widget Definitions by Name
+SELECT
+    wd.ModuleName,
+    wd.Name,
+    wma.ConfigJson_LevelAttributes_DimensionName || '.[' ||
+    wma.ConfigJson_LevelAttributes_AttributeName || ']' AS `Dimension.AttributeName`,
+    up.ConfigJson_ModelDefinition_LevelAttributes_DimensionName || '.[' ||
+    up.ConfigJson_ModelDefinition_LevelAttributes_AttributeName || ']' AS `UPDimensionName.UPAttributeName`,
+    wma.ConfigJson_RegularMeasures_Name AS MeasureName
+FROM widget_definitions wd
+         LEFT JOIN widget_model_axis wma
+                   ON wd.WidgetModelId = wma.Id
+         LEFT JOIN ui_preferences up
+                   ON wma.ConfigJson_LevelAttributes_AttributeName = up.PreferenceName
+WHERE wd.Name = 'LP & BU Reconciliation' AND (wma.ConfigJson_LevelAttributes_Axis <> 'none' OR wma.ConfigJson_RegularMeasures_Name IS NOT NULL)
+GROUP BY
+    wd.ModuleName,
+    wd.Name,
+    `Dimension.AttributeName`,
+    `UPDimensionName.UPAttributeName`,
+    MeasureName;
+
 
 --Search ui preferences
 SELECT
     up.ModuleName,
     up.PreferenceName,
     up.PreferenceType,
-    up.ConfigJson_ModelDefinition_LevelAttributes_AttributeName AS AttributeName,
-    up.ConfigJson_ModelDefinition_LevelAttributes_DimensionName AS DimensionName
-FROM ui_preferences up;
+    up.ConfigJson_ModelDefinition_LevelAttributes_DimensionName AS DimensionName,
+    up.ConfigJson_ModelDefinition_LevelAttributes_AttributeName AS AttributeName
+FROM ui_preferences up
+WHERE up.PreferenceName = 'Data Mgmt Selling Season UIP';
 
 
 -- Get LHS and RHS dependency in Procs, ARs, ABs
