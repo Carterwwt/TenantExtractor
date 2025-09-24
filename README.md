@@ -22,8 +22,7 @@ A Python tool that extracts JSON files from ZIP archives and converts them into 
 
 1. **Clone or download the project**
    ```bash
-   git clone <repository-url>
-   cd json-to-database-converter
+   git clone https://github.com/Carterwwt/TenantExtractor.git
    ```
 
 2. **Create and activate virtual environment**
